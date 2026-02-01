@@ -1,0 +1,27 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (pdf)",
+            "tools": ["latexmk"]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-interaction=nonstopmode",
+                "-halt-on-error",
+                "main.tex"
+            ],
+            "env": {},
+            "cwd": "tex"
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "files.exclude": {
+        "**/.DS_Store": true
+    }
+}
