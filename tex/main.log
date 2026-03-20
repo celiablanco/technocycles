@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 MAR 2026 12:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 MAR 2026 13:14
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -561,44 +560,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 [7]
 
 [8]
-<../figures/s8_parameter_sweep.png, id=150, 725.8317pt x 348.5823pt>
-File: ../figures/s8_parameter_sweep.png Graphic file (type png)
-<use ../figures/s8_parameter_sweep.png>
-Package pdftex.def Info: ../figures/s8_parameter_sweep.png  used on input line 
-13.
-(pdftex.def)             Requested size: 469.75502pt x 225.60245pt.
-<../figures/tech_and_resources.png, id=152, 448.7967pt x 467.8278pt>
+<../figures/tech_and_resources.png, id=150, 445.4241pt x 466.3824pt>
 File: ../figures/tech_and_resources.png Graphic file (type png)
 <use ../figures/tech_and_resources.png>
 Package pdftex.def Info: ../figures/tech_and_resources.png  used on input line 
+13.
+(pdftex.def)             Requested size: 328.82707pt x 344.30629pt.
+<../figures/s8_parameter_sweep.png, id=152, 725.8317pt x 348.5823pt>
+File: ../figures/s8_parameter_sweep.png Graphic file (type png)
+<use ../figures/s8_parameter_sweep.png>
+Package pdftex.def Info: ../figures/s8_parameter_sweep.png  used on input line 
 20.
-(pdftex.def)             Requested size: 328.82707pt x 342.77496pt.
-<../figures/summary_panel.png, id=154, 867.24pt x 650.43pt>
+(pdftex.def)             Requested size: 469.75502pt x 225.60245pt.
+<../figures/summary_panel.png, id=154, 855.9177pt x 587.5551pt>
 File: ../figures/summary_panel.png Graphic file (type png)
 <use ../figures/summary_panel.png>
 Package pdftex.def Info: ../figures/summary_panel.png  used on input line 29.
-(pdftex.def)             Requested size: 469.75502pt x 352.31868pt.
+(pdftex.def)             Requested size: 469.75502pt x 322.46597pt.
 
 
-[9 <../figures/s8_parameter_sweep.png>]
+[9 <../figures/tech_and_resources.png>]
 
-[10 <../figures/tech_and_resources.png>]
+[10 <../figures/s8_parameter_sweep.png>]
 
 [11 <../figures/summary_panel.png>]
 
 [12]) (./sections/discussion.tex
 
 [13]
-
-[14]
 Overfull \hbox (6.08397pt too wide) in paragraph at lines 11--12
 \OT1/cmr/m/n/10.95 One view posits that tech-no-log-i-cal civ-i-liza-tions are 
 fun-da-men-tally frag-ile and prone to self-destruction
  []
 
-) (./sections/conclusions.tex
 
-[15]) (./main.bbl
+
+[14]) (./sections/conclusions.tex) (./main.bbl
+
+[15]
 
 [16])
 
@@ -607,6 +606,10 @@ fun-da-men-tally frag-ile and prone to self-destruction
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 95AEE527E06C884560350A6EB05850B6;2145.
  ) 
@@ -617,7 +620,7 @@ Here is how much of TeX's memory you used:
  36726 multiletter control sequences out of 15000+600000
  567420 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,82p,2098b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,10n,82p,2098b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
@@ -632,7 +635,7 @@ ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 937399 bytes).
+Output written on main.pdf (17 pages, 1269121 bytes).
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
  282 compressed objects within 3 object streams
