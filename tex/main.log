@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 MAR 2026 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 MAR 2026 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,22 +530,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2]
 
 [3]
-Underfull \hbox (badness 1874) in paragraph at lines 66--67
+Underfull \hbox (badness 1874) in paragraph at lines 64--65
 []|\OT1/cmr/m/n/10.95 Deregulated, com-pet-i-tive, and
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 74--75
+Underfull \hbox (badness 4156) in paragraph at lines 72--73
 []|\OT1/cmr/m/n/10.95 Low-impact, cycli-cal, eco-log-i-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 86--87
+Underfull \hbox (badness 4403) in paragraph at lines 84--85
 []|\OT1/cmr/m/n/10.95 Recovered post-collapse world
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []|\OT1/cmr/m/n/10.95 Oscillatory civ-i-liza-tion with
  []
 
@@ -555,31 +555,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
 [5]
 
-[6]) (./sections/results.tex
+[6]
 
-[7]
+[7]) (./sections/results.tex
 
 [8]
-<../figures/tech_and_resources.png, id=150, 445.4241pt x 466.3824pt>
+<../figures/tech_and_resources.png, id=157, 445.4241pt x 466.3824pt>
 File: ../figures/tech_and_resources.png Graphic file (type png)
 <use ../figures/tech_and_resources.png>
 Package pdftex.def Info: ../figures/tech_and_resources.png  used on input line 
 13.
 (pdftex.def)             Requested size: 328.82707pt x 344.30629pt.
-<../figures/s8_parameter_sweep.png, id=152, 725.8317pt x 348.5823pt>
+<../figures/s8_parameter_sweep.png, id=159, 725.8317pt x 348.5823pt>
 File: ../figures/s8_parameter_sweep.png Graphic file (type png)
 <use ../figures/s8_parameter_sweep.png>
 Package pdftex.def Info: ../figures/s8_parameter_sweep.png  used on input line 
 20.
 (pdftex.def)             Requested size: 469.75502pt x 225.60245pt.
-<../figures/summary_panel.png, id=154, 855.9177pt x 587.5551pt>
+
+
+[9 <../figures/tech_and_resources.png>]
+<../figures/summary_panel.png, id=167, 855.9177pt x 587.5551pt>
 File: ../figures/summary_panel.png Graphic file (type png)
 <use ../figures/summary_panel.png>
 Package pdftex.def Info: ../figures/summary_panel.png  used on input line 29.
 (pdftex.def)             Requested size: 469.75502pt x 322.46597pt.
 
-
-[9 <../figures/tech_and_resources.png>]
 
 [10 <../figures/s8_parameter_sweep.png>]
 
@@ -588,14 +589,14 @@ Package pdftex.def Info: ../figures/summary_panel.png  used on input line 29.
 [12]) (./sections/discussion.tex
 
 [13]
+
+[14]
 Overfull \hbox (6.08397pt too wide) in paragraph at lines 11--12
 \OT1/cmr/m/n/10.95 One view posits that tech-no-log-i-cal civ-i-liza-tions are 
 fun-da-men-tally frag-ile and prone to self-destruction
  []
 
-
-
-[14]) (./sections/conclusions.tex) (./main.bbl
+) (./sections/conclusions.tex) (./main.bbl
 
 [15]
 
@@ -606,39 +607,38 @@ fun-da-men-tally frag-ile and prone to self-destruction
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 95AEE527E06C884560350A6EB05850B6;2145.
  ) 
 Here is how much of TeX's memory you used:
- 13734 strings out of 473190
- 221898 string characters out of 5715801
+ 13749 strings out of 473190
+ 222040 string characters out of 5715801
  658948 words of memory out of 5000000
- 36726 multiletter control sequences out of 15000+600000
- 567420 words of font info for 68 fonts, out of 8000000 for 9000
+ 36735 multiletter control sequences out of 15000+600000
+ 569610 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,82p,2098b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,82p,2098b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive
-/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
-2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 1269121 bytes).
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (17 pages, 1306979 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
+ 355 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
  71 named destinations out of 1000 (max. 500000)
  112 words of extra memory for PDF output out of 10000 (max. 10000000)
 

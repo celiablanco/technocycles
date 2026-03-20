@@ -10,9 +10,7 @@ We developed a hybrid deterministic-stochastic model to simulate the long-term b
 
 Following collapse, the system enters a dormant recovery period of duration \(r_{d}\). During this phase, the society is unable to grow or consume resources, reflecting a temporary halt in technological and economic activity. This delay allows time for institutional reorganization, population stabilization, or environmental recovery. Once the recovery period concludes, the resource stock is partially replenished to a fraction \(r_{f}\) of its original value \(R_{0}\). This recovery fraction represents retained infrastructure, stored reserves, or ecological regeneration. A full recovery (\(r_{f} \approx 1\)) implies robust contingency planning and strong institutional memory, while lower values indicate more severe losses and diminished rebuilding capacity. This cycle of growth, collapse, dormancy, and recovery can repeat multiple times during the simulation window, depending on the fragility of the system, the frequency of stochastic hazards, and the depletion rate of resources.
 
-Formally, let the initial conditions be \(T_{0} = 1\), and \(R_{0} \in {\mathbb{R}}_{+}\ \), and define the indicator function as \(\chi(t) \in \{ 0,1\}\), with \(\chi(t) = 1\) if the system is active (not collapsed or recovering) at time \(t\), and \(\chi(t) = 0\)otherwise. The update rules for each time step are:
-
-The update rules for each time step are given by
+Formally, let the initial conditions be \(T_{0} = 1\), and \(R_{0} \in {\mathbb{R}}_{+}\ \), and define the indicator function as \(\chi(t) \in \{ 0,1\}\), with \(\chi(t) = 1\) if the system is active (not collapsed or recovering) at time \(t\), and \(\chi(t) = 0\) otherwise. The update rules for each time step are given by
 \begin{equation}
 \begin{aligned}
 T_{t+1} &= \chi_t \left( T_t + r \right) + \left(1 - \chi_t\right) T_t ,\\
@@ -66,7 +64,7 @@ Scarcity + Rule by Few + Hierarchical \newline Cluster 6 (Earth 2024) &
 Deregulated, competitive, and fragmented society \\
 
 S3: Golden Age &
-Non-scarcity + Rule by All + Distributed \newline Cluster 6 (Earth 2024) &
+Non-scarcity + Rule by All + Distributed \newline Cluster 6 (Earth 2024)$^{\dagger}$ &
 Stable egalitarian society with abundant resources \\
 
 S4: Living with the Land &
@@ -82,7 +80,7 @@ Scarcity + Rule by Few + Hierarchical \newline Cluster 4 (Engineering) &
 High-tech and high-risk system with cascading failure potential \\
 
 S7: Restoration &
-Non-scarcity + Rule by All + Distributed \newline Cluster 3 (Sustainability) &
+Non-scarcity$^{\ddagger}$ + Rule by All + Distributed \newline Cluster 3 (Sustainability) &
 Recovered post-collapse world with resilience \\
 
 S8: Ouroboros &
@@ -99,6 +97,10 @@ Harmonized coexistence with nature and machines \\
 \bottomrule
 \end{tabular}
 }
+
+\smallskip
+{\footnotesize $^{\dagger}$Cluster assignments follow \citet{Haqq-Misra2025-rt}; S3 shares the Earth~2024 technology cluster with S1 and S2 despite differing in global factors.\\
+$^{\ddagger}$S7 is tagged non-scarcity in the original framework but parameterized with scarcity-level resource pressure to model post-collapse recovery (see text).}
 \end{table*}
 
 % \begin{sidewaystable*}[p]
@@ -164,6 +166,7 @@ We assume that governance structure influences how technological civilizations r
 
 \textcolor{red}{The Ouroboros scenario (S8) is treated differently. In the original framework, S8 is described as a civilization that repeatedly undergoes expansion, collapse, and regrowth, with the year 3000 situated partway through an ongoing recovery phase. Rather than imposing externally timed or periodic collapse events, we model this behavior as an emergent dynamical regime. Specifically, S8 is assigned moderate technological growth, partial technological survival during collapse, and a relatively high recovery fraction of planetary resources. This combination allows repeated collapse--recovery cycles to arise endogenously from the interaction between resource depletion and rebuilding, and permits exploration of whether oscillatory behavior remains stable or dampens over long timescales.}
 
+Similarly, Deus Ex Machina (S9) is tagged as non-scarcity in the original framework but is parameterized with moderate resource pressure ($R_0 = 900$, $\delta = 1.3$) to reflect the high extraction demands of its aggressive technological expansion program, which drives resource depletion despite the scenario's nominally post-scarcity classification.
 
 \begin{table}[htbp]
 \centering
@@ -174,10 +177,13 @@ We assume that governance structure influences how technological civilizations r
 Governance Type & Collapse Depth $c_f$ & Recovery Delay $r_d$ & Recovery Fraction $r_f$ \\
 \midrule
 Rule by One & 0.5--0.7 & 40--60 & 0.10--0.20 \\
-Rule by Few & 0.3--0.6 & 50--70 & 0.10--\textcolor{red}{0.35} \\
-Rule by All & 0.3--0.9 & 20--40 & 0.20--0.90 \\
+Rule by Few & 0.2--0.6 & 50--100 & 0.10--0.35 \\
+Rule by All$^{*}$ & 0.3--1.0 & 0--70 & 0.20--1.0 \\
 \bottomrule
 \end{tabular}
+
+\smallskip
+{\footnotesize $^{*}$Post-scarcity idealizations (S3, S10) use $c_f = 1.0$, $r_d = 0$, $r_f = 1.0$, reflecting no-collapse conditions. S7 and S9 use parameters outside the typical governance range as narrative exceptions (see text).}
 \end{table}
 
 Scenarios also differ fundamentally in their assumptions about planetary resource conditions. Rather than define scarcity solely in terms of starting resources, we interpret it as a function of resource pressure (i.e., how quickly a civilization depletes its reserves). That is, systems with a large initial stock may still experience scarcity if it depletes resources at a high rate (e.g., S6). Conversely, a civilization with a modest stock may persist through repeated collapse--recovery cycles if post-collapse resource recovery partially replenishes its base (e.g., S8, S9), or may rebuild following an earlier systemic failure (e.g., S7).
@@ -199,7 +205,7 @@ Low & $\geq 1200$ & 0.0--0.5 & S3, S5, S10 \\
 
 We implement Monte Carlo simulations to explore how uncertainty in model parameters shapes the long-term behavior of each scenario. Each scenario's baseline values (Table~\ref{tab:params}) are perturbed using probabilistic variation to capture plausible uncertainty (Table~\ref{tab:uncertainty}). Initial resource stock (\(R_{0}\)) and depletion rate (\(\delta\)) are sampled from normal distributions with modest standard deviations to represent uncertainty in ecological baselines and consumption patterns. Collapse depth (\(c_{f}\)) and recovery fraction (\(r_{f}\)) are sampled using triangular distributions centered on scenario-specific values, allowing outcomes to concentrate near expected levels while still capturing asymmetries in resilience and recovery capacity. Recovery delay (\(r_{d}\)) is sampled from a normal distribution with a standard deviation of $\pm 10$ years, reflecting variability in rebuilding pace across different societal structures.
 
-The existential hazard rate (\(h\)) is held fixed for each scenario because it encodes an assumed background level of external risk (such as AI misalignment, interstellar conflict, or catastrophic environmental feedbacks) rather than internal system dynamics. Unlike other parameters whose variability arises from structural or operational uncertainty, \(h\) reflects a narrative-level judgment about a civilization's exposure to exogenous threats. Scenarios characterized by unstable geopolitical contexts, risky technological dependencies, or unresolved existential challenges (e.g., S6, S7, S9) are assigned higher hazard rates to reflect this vulnerability. In contrast, scenarios with societal stability, low-impact lifestyles, or resilient infrastructure (e.g., S3, S4, S10) are assigned zero or near-zero hazard rates. Keeping \(h\) fixed rather than sampling it probabilistically allows for clearer attribution of collapse outcomes to either endogenous fragility or exogenous shocks, rather than conflating the two.
+The existential hazard rate (\(h\)) is held fixed for each scenario because it encodes an assumed background level of external risk (such as AI misalignment, interstellar conflict, or catastrophic environmental feedbacks) rather than internal system dynamics. Unlike other parameters whose variability arises from structural or operational uncertainty, \(h\) reflects a narrative-level judgment about a civilization's exposure to exogenous threats. Scenarios characterized by unstable geopolitical contexts, risky technological dependencies, or unresolved existential challenges (e.g., S1, S6, S7) are assigned higher hazard rates to reflect this vulnerability, while S5 carries a small residual risk due to high systemic complexity. In contrast, scenarios with societal stability, low-impact lifestyles, or resilient infrastructure (e.g., S3, S4, S8, S9, S10) are assigned zero or near-zero hazard rates. Keeping \(h\) fixed rather than sampling it probabilistically allows for clearer attribution of collapse outcomes to either endogenous fragility or exogenous shocks, rather than conflating the two.
 
 \begin{table*}[htbp]
 \centering
