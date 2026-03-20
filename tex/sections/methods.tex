@@ -174,13 +174,13 @@ We assume that governance structure influences how technological civilizations r
 Governance Type & Collapse Depth $c_f$ & Recovery Delay $r_d$ & Recovery Fraction $r_f$ \\
 \midrule
 Rule by One & 0.5--0.7 & 40--60 & 0.10--0.20 \\
-Rule by Few & 0.3--0.6 & 50--70 & 0.10--0.30 \\
+Rule by Few & 0.3--0.6 & 50--70 & 0.10--\textcolor{red}{0.35} \\
 Rule by All & 0.3--0.9 & 20--40 & 0.20--0.90 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Scenarios also differ fundamentally in their assumptions about planetary resource conditions. Rather than define scarcity solely in terms of starting resources, we interpret it as a function of resource pressure (i.e., how quickly a civilization depletes its reserves). That is, systems with a large initial stock may still experience scarcity if it depletes resources at a high rate (e.g., S6). Conversely, a civilization with a modest stock can maintain sustainability if depletion is minimal (e.g., S9), or may persist in a long-lived recovery regime following an earlier collapse (e.g., S7).
+Scenarios also differ fundamentally in their assumptions about planetary resource conditions. Rather than define scarcity solely in terms of starting resources, we interpret it as a function of resource pressure (i.e., how quickly a civilization depletes its reserves). That is, systems with a large initial stock may still experience scarcity if it depletes resources at a high rate (e.g., S6). Conversely, a civilization with a modest stock may persist through repeated collapse--recovery cycles if post-collapse resource recovery partially replenishes its base (e.g., S8, S9), or may rebuild following an earlier systemic failure (e.g., S7).
 
 \begin{table}[htbp]
 \centering
@@ -197,7 +197,7 @@ Low & $\geq 1200$ & 0.0--0.5 & S3, S5, S10 \\
 \end{tabular}
 \end{table}
 
-We implement Monte Carlo simulations to explore how uncertainty in model parameters shapes the long-term behavior of each scenario. Each scenario's baseline values (Table~\ref{tab:params}) are perturbed using probabilistic variation to capture plausible uncertainty (Table~\ref{tab:uncertainty}). Initial resource stock (\(R_{0}\)) and depletion rate (\(\delta\)) are sampled from normal distributions with modest standard deviations to represent uncertainty in ecological baselines and consumption patterns. Collapse depth (\(c_{f}\)), recovery delay (\(r_{d}\)), and recovery fraction (\(r_{f}\)) are sampled using triangular distributions centered on scenario-specific values, allowing outcomes to concentrate near expected levels while still capturing asymmetries in resilience, institutional memory, and recovery capacity.
+We implement Monte Carlo simulations to explore how uncertainty in model parameters shapes the long-term behavior of each scenario. Each scenario's baseline values (Table~\ref{tab:params}) are perturbed using probabilistic variation to capture plausible uncertainty (Table~\ref{tab:uncertainty}). Initial resource stock (\(R_{0}\)) and depletion rate (\(\delta\)) are sampled from normal distributions with modest standard deviations to represent uncertainty in ecological baselines and consumption patterns. Collapse depth (\(c_{f}\)) and recovery fraction (\(r_{f}\)) are sampled using triangular distributions centered on scenario-specific values, allowing outcomes to concentrate near expected levels while still capturing asymmetries in resilience and recovery capacity. Recovery delay (\(r_{d}\)) is sampled from a normal distribution with a standard deviation of $\pm 10$ years, reflecting variability in rebuilding pace across different societal structures.
 
 The existential hazard rate (\(h\)) is held fixed for each scenario because it encodes an assumed background level of external risk (such as AI misalignment, interstellar conflict, or catastrophic environmental feedbacks) rather than internal system dynamics. Unlike other parameters whose variability arises from structural or operational uncertainty, \(h\) reflects a narrative-level judgment about a civilization's exposure to exogenous threats. Scenarios characterized by unstable geopolitical contexts, risky technological dependencies, or unresolved existential challenges (e.g., S6, S7, S9) are assigned higher hazard rates to reflect this vulnerability. In contrast, scenarios with societal stability, low-impact lifestyles, or resilient infrastructure (e.g., S3, S4, S10) are assigned zero or near-zero hazard rates. Keeping \(h\) fixed rather than sampling it probabilistically allows for clearer attribution of collapse outcomes to either endogenous fragility or exogenous shocks, rather than conflating the two.
 
