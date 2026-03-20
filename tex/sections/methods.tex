@@ -160,9 +160,9 @@ We assign parameter values based on the sociotechnical features of each scenario
 
 We assume that governance structure influences how technological civilizations respond to systemic stress and collapse. Highly centralized systems (rule by one) could be more vulnerable to severe and prolonged disruptions, as decision-making and critical infrastructure are concentrated and potentially less adaptable. When collapse occurs (due to resource exhaustion or external hazard) such civilizations may face steeper declines in technological capacity and slower recovery, particularly if institutional continuity is fragile. In contrast, more distributed governance (rule by all) might support greater redundancy and flexibility, enabling shallower collapses and faster recovery following disruption. To reflect these hypothesized patterns, we selected representative parameter value ranges for collapse depth \(c_{f}\), recovery delay \(r_{d}\), and recovery fraction \(r_{f}\) that align with the governance structure assumed in each scenario (Table~\ref{tab:governance}). These values are not based on empirical observation, but represent internally consistent assumptions designed to explore contrasting trajectories in our scenario-based simulations. 
 
-One exception is the Restoration scenario (S7). While it is categorized as non-scarcity and governed by distributed institutions, it is conceptually framed as a rebuilding civilization emerging from an earlier collapse. To reflect this, we initialize the simulation with a reduced effective resource stock and a moderate depletion rate—parameters that would otherwise suggest scarcity—thereby modeling a society recovering from prior systemic failure. This allows us to represent S7 as a post-collapse recovery regime without forcing a collapse to occur within the simulation window.
+\textcolor{red}{One exception is the Restoration scenario (S7). While it is categorized as non-scarcity and governed by distributed institutions, it is conceptually framed as a rebuilding civilization emerging from an earlier collapse. To reflect this, we initialize the simulation with a reduced effective resource stock and a moderate depletion rate---parameters that would otherwise suggest scarcity---thereby modeling a society recovering from prior systemic failure. This allows us to represent S7 as a post-collapse recovery regime without forcing a collapse to occur within the simulation window.}
 
-The Ouroboros scenario (S8) is treated differently. In the original framework, S8 is described as a civilization that repeatedly undergoes expansion, collapse, and regrowth, with the year 3000 situated partway through an ongoing recovery phase. Rather than imposing externally timed or periodic collapse events, we model this behavior as an emergent dynamical regime. Specifically, S8 is assigned moderate technological growth, partial technological survival during collapse, and a relatively high recovery fraction of planetary resources. This combination allows repeated collapse–recovery cycles to arise endogenously from the interaction between resource depletion and rebuilding, and permits exploration of whether oscillatory behavior remains stable or dampens over long timescales.
+\textcolor{red}{The Ouroboros scenario (S8) is treated differently. In the original framework, S8 is described as a civilization that repeatedly undergoes expansion, collapse, and regrowth, with the year 3000 situated partway through an ongoing recovery phase. Rather than imposing externally timed or periodic collapse events, we model this behavior as an emergent dynamical regime. Specifically, S8 is assigned moderate technological growth, partial technological survival during collapse, and a relatively high recovery fraction of planetary resources. This combination allows repeated collapse--recovery cycles to arise endogenously from the interaction between resource depletion and rebuilding, and permits exploration of whether oscillatory behavior remains stable or dampens over long timescales.}
 
 
 \begin{table}[htbp]
@@ -190,8 +190,8 @@ Scenarios also differ fundamentally in their assumptions about planetary resourc
 \toprule
 Resource Pressure & $R_0$ & $\delta$ & Scenarios \\
 \midrule
-High & $\leq 1000$ & 1.0--2.5 & S1, S2, S4, S8, S9 \\
-Moderate & 400--1600 & 0.5--1.0 & S6, S7 \\
+High & $\leq 1000$ & 1.0--2.5 & S1, S2, S4, \textcolor{red}{S7,} S8, S9 \\
+Moderate & 400--1600 & 0.5--1.0 & S6 \\
 Low & $\geq 1200$ & 0.0--0.5 & S3, S5, S10 \\
 \bottomrule
 \end{tabular}
@@ -215,9 +215,9 @@ S3 & 0.0001 & 2400 & 0.0 & 1.0 & 0 & 1.0 & 0.0 \\
 S4 & 0.0060 & 600 & 2.5 & 0.2 & 100 & 0.10 & 0.0 \\
 S5 & 0.0003 & 2500 & 0.1 & 0.9 & 20 & 0.80 & 0.0005 \\
 S6 & 0.0018 & 1600 & 1.0 & 0.4 & 50 & 0.25 & 0.005 \\
-S7 & 0.0060 & 400 & 1.2 & 0.3 & 60 & 0.20 & 0.001 \\
-S8 & 0.0015 & 1000 & 1.2 & 0.6 & 80 & 0.45 & 0.0 \\
-S9 & 0.0029 & 600 & 2.5 & 0.6 & 20 & 0.40 & 0.001 \\
+S7 & 0.0060 & \textcolor{red}{400} & \textcolor{red}{1.5} & 0.3 & 60 & 0.20 & 0.001 \\
+S8 & \textcolor{red}{0.0015} & \textcolor{red}{800} & \textcolor{red}{1.3} & \textcolor{red}{0.6} & 70 & \textcolor{red}{0.35} & 0.0 \\
+S9 & \textcolor{red}{0.0011} & \textcolor{red}{900} & \textcolor{red}{1.3} & \textcolor{red}{0.5} & \textcolor{red}{70} & \textcolor{red}{0.35} & \textcolor{red}{0.0} \\
 S10 & 0.0002 & 2700 & 0.0 & 1.0 & 0 & 1.0 & 0.0 \\
 \bottomrule
 \end{tabular}
