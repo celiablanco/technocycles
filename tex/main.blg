@@ -3,53 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: ../bibliography/references.bib
-Repeated entry---line 437 of file ../bibliography/references.bib
- : @article{Haqq-Misra2009-jb
- :                           ,
-I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in UnknownUnknown-lz
 Warning--empty year in UnknownUnknown-lz
 Warning--empty journal in Cirkovic2019-oq
+Warning--empty year in Colossal2024-bv
+Warning--empty journal in Gray2021-jd
 Warning--there's a number but no volume in Wright2020-be
-You've used 26 entries,
+You've used 33 entries,
             2773 wiz_defined-function locations,
-            795 strings with 9855 characters,
-and the built_in function-call counts, 12207 in all, are:
-= -- 1077
-> -- 663
-< -- 21
-+ -- 232
-- -- 206
-* -- 1034
-:= -- 1873
-add.period$ -- 80
-call.type$ -- 26
-change.case$ -- 144
-chr.to.int$ -- 26
-cite$ -- 57
-duplicate$ -- 546
-empty$ -- 1031
-format.name$ -- 235
-if$ -- 2530
-int.to.chr$ -- 1
+            835 strings with 10729 characters,
+and the built_in function-call counts, 14879 in all, are:
+= -- 1313
+> -- 786
+< -- 27
++ -- 276
+- -- 242
+* -- 1233
+:= -- 2286
+add.period$ -- 102
+call.type$ -- 33
+change.case$ -- 176
+chr.to.int$ -- 32
+cite$ -- 73
+duplicate$ -- 681
+empty$ -- 1277
+format.name$ -- 284
+if$ -- 3088
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 27
-newline$ -- 138
-num.names$ -- 102
-pop$ -- 291
+missing$ -- 34
+newline$ -- 174
+num.names$ -- 130
+pop$ -- 364
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 146
 quote$ -- 0
-skip$ -- 383
+skip$ -- 474
 stack$ -- 0
-substring$ -- 556
-swap$ -- 65
+substring$ -- 638
+swap$ -- 76
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 276
-warning$ -- 4
-while$ -- 115
+type$ -- 348
+warning$ -- 6
+while$ -- 142
 width$ -- 0
-write$ -- 343
-(There was 1 error message)
+write$ -- 431
+(There were 6 warnings)

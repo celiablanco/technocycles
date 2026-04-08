@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,11 +10,27 @@
 \newblock \url{https://gml.noaa.gov/hats/publictn/elkins/cfcs.html}.
 \newblock Accessed: 2025-6-16.
 
+\bibitem[Asdal and Guarino(2020)]{Asdal2020-sv}
+{\AA}sild Asdal and Luigi Guarino.
+\newblock The {Svalbard} {Global} {Seed} {Vault}: 10 years---1 million samples.
+\newblock \emph{Biopreserv. Biobank.}, 18\penalty0 (5):\penalty0 391--392,
+  2020.
+
 \bibitem[Balbi(2018)]{Balbi2018-fp}
 Amedeo Balbi.
 \newblock The impact of the temporal distribution of communicating
   civilizations on their detectability.
 \newblock \emph{Astrobiology}, 18\penalty0 (1):\penalty0 54--58, January 2018.
+
+\bibitem[Balbi and {\'C}irkovi{\'c}(2021)]{Balbi2021-bc}
+Amedeo Balbi and Milan~M {\'C}irkovi{\'c}.
+\newblock Longevity is the key factor in the search for technosignatures.
+\newblock \emph{Astron. J.}, 161\penalty0 (5):\penalty0 222, May 2021.
+
+\bibitem[Balbi and Grimaldi(2024)]{Balbi2024-bg}
+Amedeo Balbi and Claudio Grimaldi.
+\newblock Technosignature longevity and lindy's law.
+\newblock \emph{Astron. J.}, 167\penalty0 (3):\penalty0 119, March 2024.
 
 \bibitem[Bhattacharya et~al.(2011)Bhattacharya, Sarkar, {and}, and
   Pandit]{Bhattacharya2011-qr}
@@ -34,6 +50,17 @@ Milan~M Cirkovi{\'c}.
 Milan~M {\'C}irkovi{\'c}, Branislav Vukoti{\'c}, and Milan Stojanovi{\'c}.
 \newblock Persistence of technosignatures: A comment on lingam and loeb.
 \newblock May 2019.
+
+\bibitem[{Colossal Biosciences}()]{Colossal2024-bv}
+{Colossal Biosciences}.
+\newblock Colossal biovault.
+\newblock \url{https://colossalfoundation.org/project/species-biobank/}.
+\newblock Accessed: 2026-4-7.
+
+\bibitem[Dartnell(2014)]{Dartnell2014-tk}
+Lewis Dartnell.
+\newblock \emph{The Knowledge: How to Rebuild Our World from Scratch}.
+\newblock Penguin Press, 2014.
 
 \bibitem[Denning(2011)]{Denning2011-fj}
 Kathryn Denning.
@@ -58,18 +85,30 @@ Robert~H Gray.
 \newblock \emph{Int. J. Astrobiology}, 19\penalty0 (4):\penalty0 299--307,
   August 2020.
 
+\bibitem[Gray(2021)]{Gray2021-jd}
+Robert~H Gray.
+\newblock Intermittent signals and planetary days in {SETI}.
+\newblock September 2021.
+
 \bibitem[Grinspoon(2009)]{Grinspoon2009-cg}
 David Grinspoon.
 \newblock \emph{Lonely planets}.
 \newblock HarperCollins eBooks, March 2009.
 
-\bibitem[Haqq-Misra et~al.(2025)Haqq-Misra, Profitiliotis, and
+\bibitem[Haqq-Misra et~al.(2025{\natexlab{a}})Haqq-Misra, Profitiliotis, and
   Kopparapu]{Haqq-Misra2025-rt}
 Jacob Haqq-Misra, George Profitiliotis, and Ravi Kopparapu.
 \newblock Projections of earth's technosphere: Scenario modeling,
   worldbuilding, and overview of remotely detectable technosignatures.
 \newblock \emph{Technol. Forecast. Soc. Change}, 218\penalty0
-  (124194):\penalty0 124194, September 2025.
+  (124194):\penalty0 124194, September 2025{\natexlab{a}}.
+
+\bibitem[Haqq-Misra et~al.(2025{\natexlab{b}})Haqq-Misra, Vidal, and
+  Profitiliotis]{Haqq-Misra2025-lum}
+Jacob Haqq-Misra, Cl{\'e}ment Vidal, and George Profitiliotis.
+\newblock Projections of earth's technosphere: Luminosity and mass as limits to
+  growth.
+\newblock \emph{Acta Astronaut.}, 229:\penalty0 831--838, 2025{\natexlab{b}}.
 
 \bibitem[Haqq-Misra and Baum(2009)]{Haqq-Misra2009-jb}
 Jacob~D Haqq-Misra and Seth~D Baum.
