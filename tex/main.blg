@@ -5,47 +5,46 @@ The style file: plainnat.bst
 Database file #1: ../bibliography/references.bib
 Warning--empty journal in Cirkovic2019-oq
 Warning--empty year in Colossal2024-bv
-Warning--empty journal in Gray2021-jd
 Warning--there's a number but no volume in Wright2020-be
-You've used 38 entries,
+You've used 37 entries,
             2773 wiz_defined-function locations,
-            899 strings with 12385 characters,
-and the built_in function-call counts, 17800 in all, are:
-= -- 1602
-> -- 977
-< -- 31
-+ -- 341
-- -- 302
-* -- 1507
-:= -- 2794
-add.period$ -- 147
-call.type$ -- 38
-change.case$ -- 208
-chr.to.int$ -- 37
-cite$ -- 80
-duplicate$ -- 783
-empty$ -- 1457
-format.name$ -- 352
-if$ -- 3677
+            896 strings with 11695 characters,
+and the built_in function-call counts, 16140 in all, are:
+= -- 1489
+> -- 729
+< -- 30
++ -- 259
+- -- 221
+* -- 1323
+:= -- 2506
+add.period$ -- 142
+call.type$ -- 37
+change.case$ -- 177
+chr.to.int$ -- 36
+cite$ -- 77
+duplicate$ -- 764
+empty$ -- 1427
+format.name$ -- 268
+if$ -- 3368
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 41
-newline$ -- 229
-num.names$ -- 154
-pop$ -- 398
+missing$ -- 40
+newline$ -- 222
+num.names$ -- 150
+pop$ -- 334
 preamble$ -- 1
-purify$ -- 175
+purify$ -- 144
 quote$ -- 0
-skip$ -- 553
+skip$ -- 514
 stack$ -- 0
-substring$ -- 709
-swap$ -- 84
+substring$ -- 707
+swap$ -- 82
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 393
-warning$ -- 4
-while$ -- 165
+type$ -- 382
+warning$ -- 3
+while$ -- 162
 width$ -- 0
-write$ -- 555
-(There were 4 warnings)
+write$ -- 540
+(There were 3 warnings)

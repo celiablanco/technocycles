@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 APR 2026 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 APR 2026 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**supplementary.tex
+(./supplementary.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./preamble.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -430,27 +430,27 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box62
 )
-(./main.aux)
-\openout1 = `main.aux'.
+(./supplementary.aux)
+\openout1 = `supplementary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -508,189 +508,55 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 4.
-(./main.out) (./main.out)
+Package hyperref Info: Link coloring ON on input line 14.
+(./supplementary.out) (./supplementary.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `supplementary.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./sections/abstract.tex) (./sections/introduction.tex
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-(./sections/model_description.tex
-
-[2]
-
-[3]
-Underfull \hbox (badness 1874) in paragraph at lines 62--63
-[]|\OT1/cmr/m/n/10.95 Deregulated, com-pet-i-tive, and
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 70--71
-[]|\OT1/cmr/m/n/10.95 Low-impact, cycli-cal, eco-log-i-
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 82--83
-[]|\OT1/cmr/m/n/10.95 Recovered post-collapse world
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-[]|\OT1/cmr/m/n/10.95 Oscillatory civ-i-liza-tion with
- []
-
-
-
-[4]
-
-[5]
-
-[6]) (./sections/results.tex
-
-[7]
-<../figures/tech_and_resources.png, id=167, 526.8483pt x 534.5571pt>
-File: ../figures/tech_and_resources.png Graphic file (type png)
-<use ../figures/tech_and_resources.png>
-Package pdftex.def Info: ../figures/tech_and_resources.png  used on input line 
-9.
-(pdftex.def)             Requested size: 328.82707pt x 333.63243pt.
-
-
-[8]
-
-[9 <../figures/tech_and_resources.png>]
-<../figures/s8_parameter_sweep.png, id=181, 787.5021pt x 353.8821pt>
-File: ../figures/s8_parameter_sweep.png Graphic file (type png)
-<use ../figures/s8_parameter_sweep.png>
-Package pdftex.def Info: ../figures/s8_parameter_sweep.png  used on input line 
-20.
-(pdftex.def)             Requested size: 469.75502pt x 211.09433pt.
-<../figures/summary_panel.png, id=187, 917.3472pt x 491.1951pt>
-File: ../figures/summary_panel.png Graphic file (type png)
-<use ../figures/summary_panel.png>
-Package pdftex.def Info: ../figures/summary_panel.png  used on input line 29.
-(pdftex.def)             Requested size: 469.75502pt x 251.5255pt.
-) (./sections/earth_implications.tex
-
-[10 <../figures/s8_parameter_sweep.png>]
-
-[11 <../figures/summary_panel.png>]
-<../figures/sensitivity_analysis_all_scenarios.png, id=219, 1101.1539pt x 1151.
-2611pt>
-File: ../figures/sensitivity_analysis_all_scenarios.png Graphic file (type png)
-
-<use ../figures/sensitivity_analysis_all_scenarios.png>
-Package pdftex.def Info: ../figures/sensitivity_analysis_all_scenarios.png  use
-d on input line 35.
-(pdftex.def)             Requested size: 469.75685pt x 491.1328pt.
-<../figures/sensitivity_response_curves.png, id=220, 1291.224pt x 1397.22pt>
-File: ../figures/sensitivity_response_curves.png Graphic file (type png)
-<use ../figures/sensitivity_response_curves.png>
-Package pdftex.def Info: ../figures/sensitivity_response_curves.png  used on in
-put line 42.
-(pdftex.def)             Requested size: 468.83989pt x 507.32675pt.
-)
-(./sections/technosignatures_implications.tex
-
-[12]
-
-[13 <../figures/sensitivity_analysis_all_scenarios.png>]
-
-[14 <../figures/sensitivity_response_curves.png>]
-
-[15]
-
-[16]) (./sections/limitations.tex) (./sections/conclusions.tex
-
-[17]) (./main.bbl
-
-[18]
-Underfull \hbox (badness 4713) in paragraph at lines 56--60
-[]\OT1/cmr/m/n/10.95 Colossal Bio-sciences.  Colos-sal bio-vault.  [][]$\OT1/cm
-tt/m/n/10.95 https : / / colossalfoundation . org / project /
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 73--78
-[]\OT1/cmr/m/n/10.95 K. Den-ning.  Be-ing tech-no-log-i-cal.  \OT1/cmr/m/it/10.
-95 Acta As-tro-naut.\OT1/cmr/m/n/10.95 , 68(3-4):372--380, Febru-ary 2011.
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 109--114
-[]\OT1/cmr/m/n/10.95 J. Haqq-Misra, C. Vi-dal, and G. Prof-i-til-i-o-tis.  Pro-
-jec-tions of earth's tech-no-sphere:
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 109--114
-\OT1/cmr/m/n/10.95 Lu-mi-nos-ity and mass as lim-its to growth.  \OT1/cmr/m/it/
-10.95 Acta As-tro-naut.\OT1/cmr/m/n/10.95 , 229:831--838, 2025b.
- []
-
-
-
-[19]
-Underfull \hbox (badness 7888) in paragraph at lines 171--175
-[]\OT1/cmr/m/n/10.95 M. Sher-mer.  Why ET hasn't called.  \OT1/cmr/m/it/10.95 S
-ci. Am.\OT1/cmr/m/n/10.95 , 287(2):33--33, Au-gust 2002.
- []
-
-)
-
-[20] (./main.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+(./supplementary.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 95A3A8D6F90C784E52EF110C8260222E;2560.
+Package rerunfilecheck Info: File `supplementary.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13862 strings out of 473190
- 225008 string characters out of 5715801
- 660240 words of memory out of 5000000
- 36820 multiletter control sequences out of 15000+600000
- 569258 words of font info for 76 fonts, out of 8000000 for 9000
+ 13457 strings out of 473190
+ 216296 string characters out of 5715801
+ 646258 words of memory out of 5000000
+ 36536 multiletter control sequences out of 15000+600000
+ 566151 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,14n,82p,2329b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (20 pages, 2920351 bytes).
+ 80i,14n,82p,699b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on supplementary.pdf (1 page, 82115 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

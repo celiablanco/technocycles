@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -6,48 +6,48 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[Asdal and Guarino(2020)]{Asdal2020-sv}
-{\AA}sild Asdal and Luigi Guarino.
+{\AA}.~Asdal and L.~Guarino.
 \newblock The {Svalbard} {Global} {Seed} {Vault}: 10 years---1 million samples.
 \newblock \emph{Biopreserv. Biobank.}, 18\penalty0 (5):\penalty0 391--392,
   2020.
 \newblock \doi{10.1089/bio.2018.0025}.
 
 \bibitem[Balbi(2018)]{Balbi2018-fp}
-Amedeo Balbi.
+A.~Balbi.
 \newblock The impact of the temporal distribution of communicating
   civilizations on their detectability.
 \newblock \emph{Astrobiology}, 18\penalty0 (1):\penalty0 54--58, January 2018.
 \newblock \doi{10.1089/ast.2017.1652}.
 
 \bibitem[Balbi and {\'C}irkovi{\'c}(2021)]{Balbi2021-bc}
-Amedeo Balbi and Milan~M {\'C}irkovi{\'c}.
+A.~Balbi and M.~M. {\'C}irkovi{\'c}.
 \newblock Longevity is the key factor in the search for technosignatures.
 \newblock \emph{Astron. J.}, 161\penalty0 (5):\penalty0 222, May 2021.
 \newblock \doi{10.3847/1538-3881/abec48}.
 
 \bibitem[Balbi and Grimaldi(2024)]{Balbi2024-bg}
-Amedeo Balbi and Claudio Grimaldi.
+A.~Balbi and C.~Grimaldi.
 \newblock Technosignature longevity and lindy's law.
 \newblock \emph{Astron. J.}, 167\penalty0 (3):\penalty0 119, March 2024.
 \newblock \doi{10.3847/1538-3881/ad217d}.
 
-\bibitem[Bhattacharya et~al.(2011)Bhattacharya, Sarkar, {and}, and
+\bibitem[Bhattacharya et~al.(2011)Bhattacharya, Sarkar, and
   Pandit]{Bhattacharya2011-qr}
-A~B Bhattacharya, A~Sarkar, {and}, and J~Pandit.
+A.~B. Bhattacharya, A.~Sarkar, and J.~Pandit.
 \newblock Some computations on the drake equation to encapsulate the probable
   number of broadcasting civilizations.
 \newblock \emph{International Journal of Applied Engineering Research},
   2\penalty0 (2):\penalty0 590--594, 2011.
 
 \bibitem[Bracewell(1960)]{Bracewell1960-bp}
-Ronald~N Bracewell.
+R.~N. Bracewell.
 \newblock Communications from superior galactic communities.
 \newblock \emph{Nature}, 186\penalty0 (4726):\penalty0 670--671, May 1960.
 \newblock \doi{10.1038/186670a0}.
 
 \bibitem[{\'C}irkovi{\'c} et~al.(2019){\'C}irkovi{\'c}, Vukoti{\'c}, and
   Stojanovi{\'c}]{Cirkovic2019-oq}
-Milan~M {\'C}irkovi{\'c}, Branislav Vukoti{\'c}, and Milan Stojanovi{\'c}.
+M.~M. {\'C}irkovi{\'c}, B.~Vukoti{\'c}, and M.~Stojanovi{\'c}.
 \newblock Persistence of technosignatures: A comment on lingam and loeb.
 \newblock May 2019.
 \newblock \doi{10.48550/arXiv.1905.03146}.
@@ -58,52 +58,46 @@ Milan~M {\'C}irkovi{\'c}, Branislav Vukoti{\'c}, and Milan Stojanovi{\'c}.
 \newblock \url{https://colossalfoundation.org/project/species-biobank/}.
 \newblock Accessed: 2026-4-7.
 
-\bibitem[Daly et~al.(2023)Daly, Ernst, Barnouin, Chabot, et~al.]{Daly2023-dart}
-R~Terik Daly, Carolyn~M Ernst, Olivier~S Barnouin, Nancy~L Chabot, et~al.
+\bibitem[Daly et~al.(2023)Daly, Ernst, Barnouin, et~al.]{Daly2023-dart}
+R.~T. Daly, C.~M. Ernst, O.~S. Barnouin, et~al.
 \newblock Successful kinetic impact into an asteroid for planetary defence.
 \newblock \emph{Nature}, 616\penalty0 (7957):\penalty0 443--447, April 2023.
 \newblock \doi{10.1038/s41586-023-05810-5}.
 
 \bibitem[Dartnell(2014)]{Dartnell2014-tk}
-Lewis Dartnell.
+L.~Dartnell.
 \newblock \emph{The Knowledge: How to Rebuild Our World from Scratch}.
 \newblock Penguin Press, 2014.
 
 \bibitem[Denning(2011)]{Denning2011-fj}
-Kathryn Denning.
+K.~Denning.
 \newblock Being technological.
 \newblock \emph{Acta Astronaut.}, 68\penalty0 (3-4):\penalty0 372--380,
   February 2011.
 \newblock \doi{10.1016/j.actaastro.2010.02.027}.
 
 \bibitem[Drake(1965)]{Drake1965-wp}
-F~D Drake.
+F.~D. Drake.
 \newblock The radio search for intelligent extraterrestrial life.
 \newblock In \emph{Current Aspects of Exobiology}, pages 323--345. Elsevier,
   1965.
 \newblock \doi{10.1016/b978-1-4832-0047-7.50015-0}.
 
 \bibitem[Gray(2020)]{Gray2020-cn}
-Robert~H Gray.
+R.~H. Gray.
 \newblock Intermittent signals and planetary days in {SETI}.
 \newblock \emph{Int. J. Astrobiology}, 19\penalty0 (4):\penalty0 299--307,
   August 2020.
 \newblock \doi{10.1017/s1473550420000038}.
 
-\bibitem[Gray(2021)]{Gray2021-jd}
-Robert~H Gray.
-\newblock Intermittent signals and planetary days in {SETI}.
-\newblock September 2021.
-\newblock \doi{10.48550/arXiv.2109.06175}.
-
 \bibitem[Grinspoon(2009)]{Grinspoon2009-cg}
-David Grinspoon.
+D.~Grinspoon.
 \newblock \emph{Lonely planets}.
 \newblock HarperCollins eBooks, March 2009.
 
 \bibitem[Haqq-Misra et~al.(2025{\natexlab{a}})Haqq-Misra, Profitiliotis, and
   Kopparapu]{Haqq-Misra2025-rt}
-Jacob Haqq-Misra, George Profitiliotis, and Ravi Kopparapu.
+J.~Haqq-Misra, G.~Profitiliotis, and R.~Kopparapu.
 \newblock Projections of earth's technosphere: Scenario modeling,
   worldbuilding, and overview of remotely detectable technosignatures.
 \newblock \emph{Technol. Forecast. Soc. Change}, 218\penalty0
@@ -112,20 +106,20 @@ Jacob Haqq-Misra, George Profitiliotis, and Ravi Kopparapu.
 
 \bibitem[Haqq-Misra et~al.(2025{\natexlab{b}})Haqq-Misra, Vidal, and
   Profitiliotis]{Haqq-Misra2025-lum}
-Jacob Haqq-Misra, Cl{\'e}ment Vidal, and George Profitiliotis.
+J.~Haqq-Misra, C.~Vidal, and G.~Profitiliotis.
 \newblock Projections of earth's technosphere: Luminosity and mass as limits to
   growth.
 \newblock \emph{Acta Astronaut.}, 229:\penalty0 831--838, 2025{\natexlab{b}}.
 \newblock \doi{10.1016/j.actaastro.2025.01.048}.
 
 \bibitem[Haqq-Misra and Baum(2009)]{Haqq-Misra2009-jb}
-Jacob~D Haqq-Misra and Seth~D Baum.
+J.~D. Haqq-Misra and S.~D. Baum.
 \newblock The sustainability solution to the fermi paradox.
 \newblock \emph{J. Br. Interplanet. Soc.}, 62\penalty0 (2):\penalty0 47--51,
   2009.
 
 \bibitem[Kardashev(1964)]{Kardashev1964-gv}
-N~Kardashev.
+N.~Kardashev.
 \newblock Transmission of information by extraterrestrial civilizations.
 \newblock \emph{SvA}, 8:\penalty0 217, October 1964.
 
@@ -136,12 +130,12 @@ N~Kardashev.
 \newblock Accessed: 2025-6-16.
 
 \bibitem[Ord(2020)]{Ord2020-tp}
-Toby Ord.
+T.~Ord.
 \newblock \emph{The Precipice: Existential Risk and the Future of Humanity}.
 \newblock Hachette Books, 2020.
 
 \bibitem[Ostrom(2010)]{Ostrom2010-pg}
-Elinor Ostrom.
+E.~Ostrom.
 \newblock Polycentric systems for coping with collective action and global
   environmental change.
 \newblock \emph{Glob. Environ. Change}, 20\penalty0 (4):\penalty0 550--557,
@@ -149,58 +143,57 @@ Elinor Ostrom.
 \newblock \doi{10.1016/j.gloenvcha.2010.07.004}.
 
 \bibitem[Papagiannis(1983)]{Papagiannis1983-xv}
-M~D Papagiannis.
+M.~D. Papagiannis.
 \newblock The importance of exploring the asteroid belt.
 \newblock \emph{Acta Astronaut.}, 10\penalty0 (10):\penalty0 709--712, October
   1983.
 \newblock \doi{10.1016/0094-5765(83)90071-1}.
 
 \bibitem[Rubin(2001)]{Rubin2001-sk}
-Charles~T Rubin.
+C.~T. Rubin.
 \newblock {L} factor: hope and fear in the search for extraterrestrial
   intelligence.
-\newblock In Stuart~A Kingsley and Ragbir Bhathal, editors, \emph{The Search
-  for Extraterrestrial Intelligence ({SETI}) in the Optical Spectrum {III}},
-  volume 4273, pages 230--239. SPIE, August 2001.
+\newblock In S.~A. Kingsley and R.~Bhathal, editors, \emph{The Search for
+  Extraterrestrial Intelligence ({SETI}) in the Optical Spectrum {III}}, volume
+  4273, pages 230--239. SPIE, August 2001.
 \newblock \doi{10.1117/12.435379}.
 
 \bibitem[Sheikh et~al.(2025)Sheikh, Huston, Fan, Wright, Beatty, Martini,
   Kopparapu, and Frank]{Sheikh2025-td}
-Sofia~Z Sheikh, Macy~J Huston, Pinchen Fan, Jason~T Wright, Thomas Beatty,
-  Connor Martini, Ravi Kopparapu, and Adam Frank.
+S.~Z. Sheikh, M.~J. Huston, P.~Fan, J.~T. Wright, T.~Beatty, C.~Martini,
+  R.~Kopparapu, and A.~Frank.
 \newblock Earth detecting earth: At what distance could earth's constellation
   of technosignatures be detected with present-day technology?
 \newblock \emph{Astron. J.}, 169\penalty0 (2):\penalty0 118, February 2025.
 \newblock \doi{10.3847/1538-3881/ada3c7}.
 
 \bibitem[Shermer(2002)]{Shermer2002-oi}
-Michael Shermer.
+M.~Shermer.
 \newblock Why {ET} hasn't called.
 \newblock \emph{Sci. Am.}, 287\penalty0 (2):\penalty0 33--33, August 2002.
 \newblock \doi{10.1038/scientificamerican0802-33}.
 
+\bibitem[Smith(2022)]{Smith2022-ds}
+J.~Smith.
+\newblock Review and viability of a {Dyson} swarm as a form of {Dyson} sphere.
+\newblock \emph{Phys. Scr.}, 97\penalty0 (12):\penalty0 122001, 2022.
+\newblock \doi{10.1088/1402-4896/ac9e78}.
+
 \bibitem[Socas-Navarro(2018)]{Socas-Navarro2018-kg}
-Hector Socas-Navarro.
+H.~Socas-Navarro.
 \newblock Possible photometric signatures of moderately advanced civilizations:
   The clarke exobelt.
 \newblock \emph{Astrophys. J.}, 855\penalty0 (2):\penalty0 110, March 2018.
 \newblock \doi{10.3847/1538-4357/aaae66}.
 
 \bibitem[Tainter(1988)]{Tainter1988-cc}
-Joseph~A Tainter.
+J.~A. Tainter.
 \newblock \emph{The Collapse of Complex Societies}.
 \newblock Cambridge University Press, 1988.
-\newblock \doi{10.1017/CBO9780511564505}.
 
-\bibitem[Trudinger et~al.(2016)Trudinger, Fraser, Etheridge, Sturges, Vollmer,
-  Rigby, Martinerie, M{\"u}hle, Worton, Krummel, Steele, Miller, Laube, Mani,
-  Rayner, Harth, Witrant, Blunier, Schwander, O'Doherty, and
-  Battle]{Trudinger2016-ky}
-Cathy~M Trudinger, Paul~J Fraser, David~M Etheridge, William~T Sturges,
-  Martin~K Vollmer, Matt Rigby, Patricia Martinerie, Jens M{\"u}hle, David~R
-  Worton, Paul~B Krummel, L~Paul Steele, Benjamin~R Miller, Johannes Laube,
-  Francis~S Mani, Peter~J Rayner, Christina~M Harth, Emmanuel Witrant, Thomas
-  Blunier, Jakob Schwander, Simon O'Doherty, and Mark Battle.
+\bibitem[Trudinger et~al.(2016)Trudinger, Fraser, Etheridge,
+  et~al.]{Trudinger2016-ky}
+C.~M. Trudinger, P.~J. Fraser, D.~M. Etheridge, et~al.
 \newblock Atmospheric abundance and global emissions of perfluorocarbons
   {CF$_{4}$}, {C$_{2}$F$_{6}$} and {C$_{3}$F$_{8}$} since 1800 inferred from
   ice core, firn, air archive and in situ measurements.
@@ -209,7 +202,7 @@ Cathy~M Trudinger, Paul~J Fraser, David~M Etheridge, William~T Sturges,
 \newblock \doi{10.5194/acp-16-11733-2016}.
 
 \bibitem[Vinn(2024)]{Vinn2024-pi}
-Olev Vinn.
+O.~Vinn.
 \newblock Potential incompatibility of inherited behavior patterns with
   civilization: Implications for fermi paradox.
 \newblock \emph{Sci. Prog.}, 107\penalty0 (3):\penalty0 368504241272491, July
@@ -217,27 +210,28 @@ Olev Vinn.
 \newblock \doi{10.1177/00368504241272491}.
 
 \bibitem[Walters et~al.(1980)Walters, Hoover, and Kotra]{Walters1980-ev}
-Clifford Walters, Raymond~A Hoover, and R~K Kotra.
+C.~Walters, R.~A. Hoover, and R.~K. Kotra.
 \newblock Interstellar colonization: A new parameter for the drake equation?
 \newblock \emph{Icarus}, 41\penalty0 (2):\penalty0 193--197, February 1980.
 \newblock \doi{10.1016/0019-1035(80)90003-2}.
 
-\bibitem[Webb(2010)]{Webb2010-vi}
-Stephen Webb.
-\newblock \emph{If the universe is teeming with aliens ... {WHERE} {IS}
-  {EVERYBODY}?}
-\newblock Springer, New York, NY, December 2010.
-\newblock \doi{10.1007/b97464}.
+\bibitem[Webb(2015)]{Webb2015-vi}
+S.~Webb.
+\newblock \emph{If the Universe Is Teeming with Aliens ... {WHERE} {IS}
+  {EVERYBODY}? Seventy-Five Solutions to the Fermi Paradox and the Problem of
+  Extraterrestrial Life}.
+\newblock Springer International Publishing, 2nd edition, 2015.
+\newblock \doi{10.1007/978-3-319-13236-5}.
 
 \bibitem[Wesson(1990)]{Wesson1990-xi}
-P~Wesson.
+P.~Wesson.
 \newblock Cosmology, extraterrestrial intelligence, and a resolution of the
   fermi-hart paradox.
 \newblock \emph{Quarterly journal of the royal astronomical society},
   31:\penalty0 161--170, June 1990.
 
 \bibitem[Wong and Bartlett(2022)]{Wong2022-hv}
-Michael~L Wong and Stuart Bartlett.
+M.~L. Wong and S.~Bartlett.
 \newblock Asymptotic burnout and homeostatic awakening: a possible solution to
   the fermi paradox?
 \newblock \emph{J. R. Soc. Interface}, 19\penalty0 (190):\penalty0 20220029,
@@ -245,36 +239,27 @@ Michael~L Wong and Stuart Bartlett.
 \newblock \doi{10.1098/rsif.2022.0029}.
 
 \bibitem[Wright(2020)]{Wright2020-be}
-Jason Wright, T.
+J.~T. Wright.
 \newblock Dyson spheres.
 \newblock \emph{Serbian Astron. J.}, \penalty0 (200):\penalty0 1--18, 2020.
 \newblock \doi{10.2298/saj2000001w}.
 
 \bibitem[Wright et~al.(2022)Wright, Haqq-Misra, Frank, Kopparapu, Lingam, and
   Sheikh]{Wright2022-wh}
-Jason~T Wright, Jacob Haqq-Misra, Adam Frank, Ravi Kopparapu, Manasvi Lingam,
-  and Sofia~Z Sheikh.
+J.~T. Wright, J.~Haqq-Misra, A.~Frank, R.~Kopparapu, M.~Lingam, and S.~Z.
+  Sheikh.
 \newblock The case for technosignatures: Why they may be abundant, long-lived,
   highly detectable, and unambiguous.
 \newblock \emph{Astrophys. J. Lett.}, 927\penalty0 (2):\penalty0 L30, March
   2022.
 \newblock \doi{10.3847/2041-8213/ac5824}.
 
-\bibitem[Xia et~al.(2022)Xia, Robock, Scherrer, Harrison, Bodirsky, Weindl,
-  J{\"a}germeyr, Bardeen, Toon, and Heneghan]{Xia2022-nw}
-Lili Xia, Alan Robock, Kim Scherrer, Cheryl~S Harrison, Benjamin~Leon Bodirsky,
-  Isabelle Weindl, Jonas J{\"a}germeyr, Charles~G Bardeen, Owen~B Toon, and
-  Ryan Heneghan.
+\bibitem[Xia et~al.(2022)Xia, Robock, Scherrer, et~al.]{Xia2022-nw}
+L.~Xia, A.~Robock, K.~Scherrer, et~al.
 \newblock Global food insecurity and famine from reduced crop, marine fishery
   and livestock production due to climate disruption from nuclear war soot
   injection.
 \newblock \emph{Nat. Food}, 3\penalty0 (8):\penalty0 586--596, August 2022.
 \newblock \doi{10.1038/s43016-022-00573-0}.
-
-\bibitem[Zac and Osmanov(2022)]{Zac2021-ds}
-Seth Zac and Zaza Osmanov.
-\newblock Review and viability of a {Dyson} swarm as a form of {Dyson} sphere.
-\newblock \emph{Phys. Scr.}, 97\penalty0 (12):\penalty0 122001, 2022.
-\newblock \doi{10.1088/1402-4896/ac9e78}.
 
 \end{thebibliography}
