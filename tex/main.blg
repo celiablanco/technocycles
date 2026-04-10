@@ -3,51 +3,49 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: ../bibliography/references.bib
-Warning--to sort, need author or key in UnknownUnknown-lz
-Warning--empty year in UnknownUnknown-lz
 Warning--empty journal in Cirkovic2019-oq
 Warning--empty year in Colossal2024-bv
 Warning--empty journal in Gray2021-jd
 Warning--there's a number but no volume in Wright2020-be
-You've used 33 entries,
+You've used 38 entries,
             2773 wiz_defined-function locations,
-            835 strings with 10729 characters,
-and the built_in function-call counts, 14879 in all, are:
-= -- 1313
-> -- 786
-< -- 27
-+ -- 276
-- -- 242
-* -- 1233
-:= -- 2286
-add.period$ -- 102
-call.type$ -- 33
-change.case$ -- 176
-chr.to.int$ -- 32
-cite$ -- 73
-duplicate$ -- 681
-empty$ -- 1277
-format.name$ -- 284
-if$ -- 3088
+            899 strings with 12385 characters,
+and the built_in function-call counts, 17800 in all, are:
+= -- 1602
+> -- 977
+< -- 31
++ -- 341
+- -- 302
+* -- 1507
+:= -- 2794
+add.period$ -- 147
+call.type$ -- 38
+change.case$ -- 208
+chr.to.int$ -- 37
+cite$ -- 80
+duplicate$ -- 783
+empty$ -- 1457
+format.name$ -- 352
+if$ -- 3677
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 34
-newline$ -- 174
-num.names$ -- 130
-pop$ -- 364
+missing$ -- 41
+newline$ -- 229
+num.names$ -- 154
+pop$ -- 398
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 175
 quote$ -- 0
-skip$ -- 474
+skip$ -- 553
 stack$ -- 0
-substring$ -- 638
-swap$ -- 76
+substring$ -- 709
+swap$ -- 84
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 348
-warning$ -- 6
-while$ -- 142
+type$ -- 393
+warning$ -- 4
+while$ -- 165
 width$ -- 0
-write$ -- 431
-(There were 6 warnings)
+write$ -- 555
+(There were 4 warnings)
