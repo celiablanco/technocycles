@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.13)  13 APR 2026 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.13)  13 APR 2026 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,7 +583,7 @@ put line 42.
 (./sections/technosignatures_implications.tex [12] [13 <../figures/sensitivity_
 analysis_all_scenarios.png>] [14 <../figures/sensitivity_response_curves.png>]
 [15]
-<../figures/technosignature_detectability.png, id=280, 919.5153pt x 491.1951pt>
+<../figures/technosignature_detectability.png, id=282, 919.5153pt x 491.1951pt>
 
 File: ../figures/technosignature_detectability.png Graphic file (type png)
 <use ../figures/technosignature_detectability.png>
@@ -616,23 +616,23 @@ Underfull \hbox (badness 3826) in paragraph at lines 109--114
  []
 
 [20]
-Underfull \hbox (badness 7888) in paragraph at lines 177--181
+Underfull \hbox (badness 7888) in paragraph at lines 185--189
 []\OT1/cmr/m/n/10.95 M. Sher-mer.  Why ET hasn't called.  \OT1/cmr/m/it/10.95 S
 ci. Am.\OT1/cmr/m/n/10.95 , 287(2):33--33, Au-gust 2002.
  []
 
-) [21] (./main.aux)
+[21]) [22] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 95A3A8D6F90C784E52EF110C8260222E;2560.
  ) 
 Here is how much of TeX's memory you used:
- 13533 strings out of 477985
- 222079 string characters out of 5839380
+ 13538 strings out of 477985
+ 222191 string characters out of 5839380
  1868388 words of memory out of 6000000
- 33425 multiletter control sequences out of 15000+600000
+ 33428 multiletter control sequences out of 15000+600000
  522708 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 80i,14n,79p,2329b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,14n,79p,2329b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
@@ -648,10 +648,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (21 pages, 3054045 bytes).
+Output written on main.pdf (22 pages, 3054803 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
