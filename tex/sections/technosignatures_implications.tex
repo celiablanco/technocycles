@@ -22,7 +22,28 @@ Recent work by \citet{Balbi2024-bg} provides further theoretical support for thi
 
 \subsection{Technosignature Persistence and Observation Probabilities}\label{technosignature-persistence}
 
-\hl{[PLACEHOLDER - Jacob's per-technosignature detectability framework]}
+Eq. (5) gives the detectability duration in terms of the mean duty cycle and time in the observation window:
+\begin{equation}
+    L_{\text{eff}}=D_cT_{\text{span}}.
+\end{equation}
+Some technosignatures may have a lifetime exactly equal to the the civilization's lifetime, but others may persist for some time after collapse. For technosignature $i$, the detectability duration is given as
+\begin{equation}
+    L_{i}=D_cT_{\text{span}} + \text{min}[T_i, (1-D_c)T_{\text{span}}]\delta_{i},
+\end{equation}
+where $T_i$ is the lifetime of technosignature $i$ and $\delta_{i}$ is a flag that is 1 if technosignature $i$ is present in the scenario and 0 otherwise.
+
+The probability that technosignature $i$ could be observed (assuming an appropriate observatory) is
+\begin{equation}
+    p_{i}=\frac{L_i}{T_{\text{span}}} = D_c + \text{min}[\frac{T_i}{T_{\text{span}}}, 1-D_c]\delta_{i},
+\end{equation}
+These probabilities are shown in the figure above for four example technosignatures, with a 1000-year time span. These probabilities should be interpreted as the probability of finding a given technosignature for remote observations of Earth in a given scenario, assuming the use of a capable observatory and sufficient observation time. Nitrogen dioxide (NO$_2$) has a short lifetime of hours to days, so the probability is about equal to the duty cycle for scenarios in which nitrogen dioxide is present. The lifetimes of CFC-11 is 55\,yr, and the lifetime of CFC-12 is 140\,yr, which could be observed in five of the scenarios. CFC-12 has higher observation probabilities due to its longer lifetime. Carbon tetrafluoride (CF$_4$) has a lifetime of 1000\,yr or longer, observable in one of the scenarios.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{../figures/technosignature_dectability.png}
+\caption{he probability that a technosignature could be observed, taking into account the duty cycle for each scenario and the lifetime of each technosignature.}
+\label{fig:ts_detect}
+\end{figure*}
 
 The $L_{\mathrm{eff}}$ formulation assumes that detectability ends when activity ceases. As noted above, this need not be the case \citep{Balbi2021-bc}. The persistence of different technosignature types varies enormously. Orbital debris and artificial satellites can last from decades to as long as 10,000 to 100,000 years. Satellites in low Earth orbit typically deorbit within decades due to atmospheric drag, while those in geosynchronous orbit, facing minimal resistance, may persist for much longer. Without maintenance, a dense band of satellites in the so-called Clarke belt would slowly degrade through collisions and orbital perturbations over tens of thousands of years, eventually becoming undetectable \citep{Socas-Navarro2018-kg}. Megastructures such as Dyson spheres, space mirrors, or stellar engines may persist longer still, though their survival depends on structural design and orbital stability. Rigid constructs without active station-keeping may collapse or drift within a few centuries to several thousand years \citep{Wright2020-be}, however, more modular configurations, like swarms of solar collectors, could remain in stable orbits for far longer timescales \citep{Smith2022-ds}.
 
