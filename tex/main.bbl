@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -44,6 +44,17 @@ R.~N. Bracewell.
 \newblock Communications from superior galactic communities.
 \newblock \emph{Nature}, 186\penalty0 (4726):\penalty0 670--671, May 1960.
 \newblock \doi{10.1038/186670a0}.
+
+\bibitem[Calla et~al.(2023)Calla, Guinchard, Moine, Novello-Paglianti,
+  Nuninger, and Ogorzelec-Guinchard]{Calla2023-ww}
+S~Calla, C~Guinchard, A~Moine, N~Novello-Paglianti, L~Nuninger, and
+  L~Ogorzelec-Guinchard.
+\newblock Confronting the uncertainties associated with long-time scales:
+  Analysis of the modes of preservation of memory of radioactive waste burial
+  sites.
+\newblock \emph{Worldwide Waste: Journal of Interdisciplinary Studies},
+  6\penalty0 (1):\penalty0 1--12, 2023.
+\newblock \doi{10.5334/wwwj.75}.
 
 \bibitem[{\'C}irkovi{\'c} et~al.(2019){\'C}irkovi{\'c}, Vukoti{\'c}, and
   Stojanovi{\'c}]{Cirkovic2019-oq}
@@ -131,6 +142,21 @@ N.~Kardashev.
 \newblock Transmission of information by extraterrestrial civilizations.
 \newblock \emph{SvA}, 8:\penalty0 217, October 1964.
 
+\bibitem[Keating and Storm(2023)]{Keating2023-ns}
+Thomas~P Keating and Anna Storm.
+\newblock Nuclear memory: Archival, aesthetic, speculative.
+\newblock \emph{Progress in Environmental Geography}, 2\penalty0
+  (1-2):\penalty0 97--117, 2023.
+\newblock \doi{10.1177/27539687231174242}.
+
+\bibitem[Mazzucchelli and Novello~Paglianti(2022)]{Mazzucchelli2022-lf}
+Francesco Mazzucchelli and Nanta Novello~Paglianti.
+\newblock How to remember a place to forget? {The} semiotic design of deep
+  geological nuclear repositories, from long-term communication to memory
+  transmission.
+\newblock \emph{Linguistic Frontiers}, 5\penalty0 (3):\penalty0 22--36, 2022.
+\newblock \doi{10.2478/lf-2022-0026}.
+
 \bibitem[Mullan and Haqq-Misra(2019)]{mullan2019population}
 Brendan Mullan and Jacob Haqq-Misra.
 \newblock Population growth, energy use, and the implications for the search
@@ -163,6 +189,12 @@ M.~D. Papagiannis.
   1983.
 \newblock \doi{10.1016/0094-5765(83)90071-1}.
 
+\bibitem[Ren(2012)]{Ren2012-kh}
+Huiming Ren.
+\newblock The distinction between knowledge-that and knowledge-how.
+\newblock \emph{Philosophia}, 40\penalty0 (4):\penalty0 857--875, 2012.
+\newblock \doi{10.1007/s11406-012-9361-x}.
+
 \bibitem[Rubin(2001)]{Rubin2001-sk}
 C.~T. Rubin.
 \newblock {L} factor: hope and fear in the search for extraterrestrial
@@ -171,6 +203,15 @@ C.~T. Rubin.
   Extraterrestrial Intelligence ({SETI}) in the Optical Spectrum {III}}, volume
   4273, pages 230--239. SPIE, August 2001.
 \newblock \doi{10.1117/12.435379}.
+
+\bibitem[Sandlos et~al.(2019)Sandlos, Keeling, Beckett, and
+  Nicol]{Sandlos2019-gm}
+John Sandlos, Arn Keeling, Caitlynn Beckett, and Rosanna Nicol.
+\newblock There is a monster under the ground: Commemorating the history of
+  arsenic contamination at {Giant Mine} as a warning to future generations.
+\newblock \emph{Papers in Canadian History and Environment}, \penalty0
+  (3):\penalty0 1--55, October 2019.
+\newblock \doi{10.25071/10315/36516}.
 
 \bibitem[Sheikh et~al.(2025)Sheikh, Huston, Fan, Wright, Beatty, Martini,
   Kopparapu, and Frank]{Sheikh2025-td}

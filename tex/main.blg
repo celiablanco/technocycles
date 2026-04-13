@@ -1,50 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: ../bibliography/references.bib
 Warning--empty journal in Cirkovic2019-oq
 Warning--empty year in Colossal2024-bv
+Warning--there's a number but no volume in Sandlos2019-gm
 Warning--there's a number but no volume in Wright2020-be
-You've used 39 entries,
+You've used 44 entries,
             2773 wiz_defined-function locations,
-            909 strings with 12129 characters,
-and the built_in function-call counts, 17023 in all, are:
-= -- 1568
-> -- 780
-< -- 31
-+ -- 277
-- -- 236
-* -- 1399
-:= -- 2642
-add.period$ -- 148
-call.type$ -- 39
-change.case$ -- 188
-chr.to.int$ -- 37
-cite$ -- 81
-duplicate$ -- 805
-empty$ -- 1500
-format.name$ -- 287
-if$ -- 3551
+            948 strings with 13384 characters,
+and the built_in function-call counts, 19531 in all, are:
+= -- 1804
+> -- 928
+< -- 34
++ -- 327
+- -- 281
+* -- 1626
+:= -- 3033
+add.period$ -- 168
+call.type$ -- 44
+change.case$ -- 218
+chr.to.int$ -- 42
+cite$ -- 92
+duplicate$ -- 907
+empty$ -- 1693
+format.name$ -- 341
+if$ -- 4066
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 42
-newline$ -- 232
-num.names$ -- 158
-pop$ -- 352
+missing$ -- 47
+newline$ -- 262
+num.names$ -- 178
+pop$ -- 399
 preamble$ -- 1
-purify$ -- 153
+purify$ -- 178
 quote$ -- 0
-skip$ -- 544
+skip$ -- 620
 stack$ -- 0
-substring$ -- 736
-swap$ -- 85
+substring$ -- 844
+swap$ -- 91
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 404
-warning$ -- 3
-while$ -- 171
+type$ -- 459
+warning$ -- 4
+while$ -- 196
 width$ -- 0
-write$ -- 566
-(There were 3 warnings)
+write$ -- 641
+(There were 4 warnings)
