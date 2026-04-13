@@ -817,6 +817,11 @@ INPUT sections/technosignatures_implications.tex
 INPUT ./sections/technosignatures_implications.tex
 INPUT ./sections/technosignatures_implications.tex
 INPUT sections/technosignatures_implications.tex
+INPUT ../figures/technosignature_detectability.png
+INPUT ../figures/technosignature_detectability.png
+INPUT ../figures/technosignature_detectability.png
+INPUT ../figures/technosignature_detectability.png
+INPUT ../figures/technosignature_detectability.png
 INPUT ./sections/limitations.tex
 INPUT ./sections/limitations.tex
 INPUT ./sections/limitations.tex

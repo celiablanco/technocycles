@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.13)  13 APR 2026 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.13)  13 APR 2026 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -544,28 +544,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 []|\OT1/cmr/m/n/10.95 Oscillatory civ-i-liza-tion with
  []
 
-[4] [5] [6]) (./sections/results.tex [7]
-<../figures/tech_and_resources.png, id=167, 526.8483pt x 534.5571pt>
+[4] [5] [6] [7]) (./sections/results.tex
+<../figures/tech_and_resources.png, id=174, 526.8483pt x 534.5571pt>
 File: ../figures/tech_and_resources.png Graphic file (type png)
 <use ../figures/tech_and_resources.png>
 Package pdftex.def Info: ../figures/tech_and_resources.png  used on input line 
 9.
 (pdftex.def)             Requested size: 328.82707pt x 333.63243pt.
  [8] [9 <../figures/tech_and_resources.png>]
-<../figures/s8_parameter_sweep.png, id=181, 787.5021pt x 359.4228pt>
+<../figures/s8_parameter_sweep.png, id=188, 787.5021pt x 359.4228pt>
 File: ../figures/s8_parameter_sweep.png Graphic file (type png)
 <use ../figures/s8_parameter_sweep.png>
 Package pdftex.def Info: ../figures/s8_parameter_sweep.png  used on input line 
 20.
 (pdftex.def)             Requested size: 469.75502pt x 214.39943pt.
-<../figures/summary_panel.png, id=187, 917.3472pt x 491.1951pt>
+<../figures/summary_panel.png, id=194, 917.3472pt x 491.1951pt>
 File: ../figures/summary_panel.png Graphic file (type png)
 <use ../figures/summary_panel.png>
 Package pdftex.def Info: ../figures/summary_panel.png  used on input line 29.
 (pdftex.def)             Requested size: 469.75502pt x 251.5255pt.
-) (./sections/earth_implications.tex [10 <../figures/s8_parameter_sweep.png>] [
-11 <../figures/summary_panel.png>]
-<../figures/sensitivity_analysis_all_scenarios.png, id=219, 1101.1539pt x 1151.
+ [10 <../figures/s8_parameter_sweep.png>])
+(./sections/earth_implications.tex [11 <../figures/summary_panel.png>]
+<../figures/sensitivity_analysis_all_scenarios.png, id=225, 1101.1539pt x 1151.
 2611pt>
 File: ../figures/sensitivity_analysis_all_scenarios.png Graphic file (type png)
 
@@ -573,7 +573,7 @@ File: ../figures/sensitivity_analysis_all_scenarios.png Graphic file (type png)
 Package pdftex.def Info: ../figures/sensitivity_analysis_all_scenarios.png  use
 d on input line 35.
 (pdftex.def)             Requested size: 469.75685pt x 491.1328pt.
-<../figures/sensitivity_response_curves.png, id=220, 1291.224pt x 1397.22pt>
+<../figures/sensitivity_response_curves.png, id=226, 1291.224pt x 1397.22pt>
 File: ../figures/sensitivity_response_curves.png Graphic file (type png)
 <use ../figures/sensitivity_response_curves.png>
 Package pdftex.def Info: ../figures/sensitivity_response_curves.png  used on in
@@ -582,8 +582,16 @@ put line 42.
 )
 (./sections/technosignatures_implications.tex [12] [13 <../figures/sensitivity_
 analysis_all_scenarios.png>] [14 <../figures/sensitivity_response_curves.png>]
-[15] [16]) (./sections/limitations.tex) (./sections/conclusions.tex [17])
-[18] (./main.bbl
+[15]
+<../figures/technosignature_detectability.png, id=280, 919.5153pt x 491.1951pt>
+
+File: ../figures/technosignature_detectability.png Graphic file (type png)
+<use ../figures/technosignature_detectability.png>
+Package pdftex.def Info: ../figures/technosignature_detectability.png  used on 
+input line 39.
+(pdftex.def)             Requested size: 469.75502pt x 250.94089pt.
+ [16]) (./sections/limitations.tex [17 <../figures/technosignature_detectabilit
+y.png>]) (./sections/conclusions.tex [18]) (./main.bbl [19]
 Underfull \hbox (badness 4713) in paragraph at lines 56--60
 []\OT1/cmr/m/n/10.95 Colossal Bio-sciences.  Colos-sal bio-vault.  [][]$\OT1/cm
 tt/m/n/10.95 https : / / colossalfoundation . org / project /
@@ -607,24 +615,24 @@ Underfull \hbox (badness 3826) in paragraph at lines 109--114
 10.95 Acta As-tro-naut.\OT1/cmr/m/n/10.95 , 229:831--838, 2025b.
  []
 
-[19]
-Underfull \hbox (badness 7888) in paragraph at lines 171--175
+[20]
+Underfull \hbox (badness 7888) in paragraph at lines 177--181
 []\OT1/cmr/m/n/10.95 M. Sher-mer.  Why ET hasn't called.  \OT1/cmr/m/it/10.95 S
 ci. Am.\OT1/cmr/m/n/10.95 , 287(2):33--33, Au-gust 2002.
  []
 
-[20]) [21] (./main.aux)
+) [21] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 95A3A8D6F90C784E52EF110C8260222E;2560.
  ) 
 Here is how much of TeX's memory you used:
- 13519 strings out of 477985
- 221599 string characters out of 5839380
+ 13533 strings out of 477985
+ 222079 string characters out of 5839380
  1868388 words of memory out of 6000000
- 33414 multiletter control sequences out of 15000+600000
+ 33425 multiletter control sequences out of 15000+600000
  522708 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 80i,14n,79p,2329b,610s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,14n,79p,2329b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
@@ -640,10 +648,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (21 pages, 2819547 bytes).
+Output written on main.pdf (21 pages, 3054045 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 93 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

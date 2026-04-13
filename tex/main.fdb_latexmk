@@ -1,18 +1,19 @@
 # Fdb version 4
-["bibtex main"] 1776095244.67252 "main.aux" "main.bbl" "main" 1776095897.08846 0
-  "../bibliography/references.bib" 1776090088.076 14772 76efb167650330aa97a4c0ca5cba8159 ""
+["bibtex main"] 1776099985.10245 "main.aux" "main.bbl" "main" 1776099992.51844 0
+  "../bibliography/references.bib" 1776099968.5642 15060 d9340812670641acdfb5464c67f573fa ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1776095896.83577 16057 61d46a98b36da3cc16c9b49d7cc49a2b "pdflatex"
+  "main.aux" 1776099992.25852 16761 e219f516a7aa6a4be48c990ad70a7660 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1776095890.27838 "main.tex" "main.pdf" "main" 1776095897.08889 0
+["pdflatex"] 1776099985.13166 "main.tex" "main.pdf" "main" 1776099992.51887 0
   "../figures/s8_parameter_sweep.png" 1776095221.09611 322859 4019886b41512e1862291844a865c2b8 ""
   "../figures/sensitivity_analysis_all_scenarios.png" 1776095221.10011 342327 aeac6063cd3fcba760c6a0202f9ca402 ""
   "../figures/sensitivity_response_curves.png" 1776090088.093 1324845 127278033bd8720ff0a1d2bc493ed164 ""
   "../figures/summary_panel.png" 1776095413.96759 296653 cf693e544888db41d818afe6a248a0a9 ""
   "../figures/tech_and_resources.png" 1776095221.10611 517619 c0d693c600a3174fcdcf00788d923955 ""
+  "../figures/technosignature_detectability.png" 1776096443.68211 257352 88bc04c6a73431d6d9574f98bc5bd97c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -130,19 +131,19 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776091773.52777 292067 e3a0646fd8db0a03b75f068e69bdb032 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776092104 6447590 3026b9005cd33ccc9220df7bfae8aa77 ""
   "macros.tex" 1776090088.115 225 d8d944af9acb08ef50ab1eb4ebe43bf8 ""
-  "main.aux" 1776095896.83577 16057 61d46a98b36da3cc16c9b49d7cc49a2b "pdflatex"
-  "main.bbl" 1776095244.69044 10746 4af2f5a9aa3895788a647718eb815938 "bibtex main"
-  "main.out" 1776095896.83777 2560 95a3a8d6f90c784e52ef110c8260222e "pdflatex"
+  "main.aux" 1776099992.25852 16761 e219f516a7aa6a4be48c990ad70a7660 "pdflatex"
+  "main.bbl" 1776099985.12172 11011 3b49c70e6e0cb46b8412ef7c13f3bfbf "bibtex main"
+  "main.out" 1776099992.26052 2560 95a3a8d6f90c784e52ef110c8260222e "pdflatex"
   "main.tex" 1776090088.141 589 c04a31a476acca52a66d60b7714c9358 ""
-  "preamble.tex" 1776090088.141 920 34f5802a6ad7f279060056525bc49dc0 ""
-  "sections/abstract.tex" 1776090088.141 864 3613eb1179e926ed86f454cca5e0b4e4 ""
+  "preamble.tex" 1776098767.39759 944 e5e3abcc72c8fef0ba984cbc16caedfb ""
+  "sections/abstract.tex" 1776099968.5642 962 5c4eea742870d2293bf191d8003cf71d ""
   "sections/conclusions.tex" 1776090088.14203 2895 96eefcb2fbdc1e3e367c7f593d87305a ""
   "sections/earth_implications.tex" 1776090088.14203 8494 90a3c96ade12f9f0d7efff0e6e8c2c4e ""
-  "sections/introduction.tex" 1776090088.14203 4746 75cd106ff4d46b2c2eb07dd46dd4f971 ""
+  "sections/introduction.tex" 1776099968.5642 4767 f8cb78abf65764ff418b157356d3a825 ""
   "sections/limitations.tex" 1776090088.14203 2845 04337b8d8ff7820bb9b2ed3431f19c92 ""
-  "sections/model_description.tex" 1776090088.14203 19507 dcd027f19c912879490cf39128949a7a ""
+  "sections/model_description.tex" 1776099968.5642 19516 e8f98db3bf9619ab269461319dc284c5 ""
   "sections/results.tex" 1776090088.14203 6815 09d697841a9cdf4d312bd17a01599852 ""
-  "sections/technosignatures_implications.tex" 1776095887.35804 9771 9632bd854d1077a134e7be0a305acb60 ""
+  "sections/technosignatures_implications.tex" 1776099968.5652 9864 e0693f08d65673ea0533be04f0f5f789 ""
   (generated)
   "main.aux"
   "main.log"
