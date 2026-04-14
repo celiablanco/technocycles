@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[authoryear]{natbib}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[margin=1in]{geometry}
+\usepackage{placeins}
+\usepackage[
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+]{hyperref}
+\usepackage{doi}
+\usepackage{cleveref}
+\usepackage{makecell}
+\usepackage{rotating}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{1.5em}
+
+\title{Projections of Earth's Technosphere: \\ Civilization Collapse--Recovery Dynamics and Detectability}
+\author{}
+\date{}
+
+\input{macros}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/model_description}
+\input{sections/results}
+\input{sections/earth_implications}
+\input{sections/technosignatures_implications}
+\input{sections/limitations}
+\input{sections/conclusions}
+
+\section*{Code Availability}
+All code used to run the simulations and generate the figures in this paper is publicly available at [redacted for review].
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the authors used Claude (Anthropic) to assist with \LaTeX{} file organization and directory management, code-related tasks such as debugging and commenting, and for spelling, grammar, and English proofreading. All manuscript content was written, reviewed, and verified by the authors, who take full responsibility for the final text.
+
+\bibliographystyle{plainnat}
+\bibliography{../bibliography/references}
+
+\end{document}
