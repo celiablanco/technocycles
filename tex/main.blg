@@ -2,14 +2,14 @@ This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
-Database file #1: ../bibliography/references.bib
+Database file #1: references.bib
 Warning--empty journal in Cirkovic2019-oq
 Warning--empty year in Colossal2024-bv
 Warning--there's a number but no volume in Sandlos2019-gm
 Warning--there's a number but no volume in Wright2020-be
 You've used 44 entries,
             2773 wiz_defined-function locations,
-            948 strings with 13384 characters,
+            948 strings with 13368 characters,
 and the built_in function-call counts, 19531 in all, are:
 = -- 1804
 > -- 928
