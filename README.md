@@ -1,3 +1,6 @@
+
+#Branch for TF&SC submission
+
 # Technological Civilization Collapse–Recovery Dynamics and Detectability
 
 Code and manuscript for a paper modeling collapse–recovery dynamics across ten plausible futures for Earth-originating civilization, computing duty cycles and their implications for technosignature detectability and the Drake Equation.
