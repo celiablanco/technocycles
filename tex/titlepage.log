@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  14 APR 2026 23:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 MAY 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -284,6 +284,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 40.
 
 
 [1
@@ -298,23 +300,24 @@ Package rerunfilecheck Info: File `titlepage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8654 strings out of 473190
- 134357 string characters out of 5715801
- 538729 words of memory out of 5000000
- 31843 multiletter control sequences out of 15000+600000
- 563392 words of font info for 51 fonts, out of 8000000 for 9000
+ 8660 strings out of 473190
+ 134444 string characters out of 5715801
+ 539729 words of memory out of 5000000
+ 31848 multiletter control sequences out of 15000+600000
+ 564176 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,336b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,539b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on titlepage.pdf (1 page, 78702 bytes).
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on titlepage.pdf (1 page, 91032 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

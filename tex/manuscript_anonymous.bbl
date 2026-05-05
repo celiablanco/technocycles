@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -136,6 +136,13 @@ Jacob Haqq-Misra, Ravi~K Kopparapu, and George Profitiliotis.
   technosignatures on terrestrial exoplanets.
 \newblock \emph{The Astrophysical Journal Letters}, 995\penalty0 (1):\penalty0
   L22, 2025{\natexlab{c}}.
+\newblock \doi{10.3847/2041-8213/ae23c6}.
+
+\bibitem[Jevons(1865)]{Jevons1865-cq}
+William~Stanley Jevons.
+\newblock \emph{The Coal Question: An Inquiry Concerning the Progress of the
+  Nation, and the Probable Exhaustion of our Coal-Mines}.
+\newblock Macmillan and Co., London, 1865.
 
 \bibitem[Kardashev(1964)]{Kardashev1964-gv}
 N.~Kardashev.

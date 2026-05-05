@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 APR 2026 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 MAY 2026 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,12 +591,12 @@ Package pdftex.def Info: ../figures/figure3.png  used on input line 29.
 [11 <../figures/figure3.png>]
 
 [12]
-<../figures/figure4.png, id=251, 1101.1539pt x 1151.2611pt>
+<../figures/figure4.png, id=253, 1101.1539pt x 1151.2611pt>
 File: ../figures/figure4.png Graphic file (type png)
 <use ../figures/figure4.png>
 Package pdftex.def Info: ../figures/figure4.png  used on input line 37.
 (pdftex.def)             Requested size: 469.75685pt x 491.1328pt.
-<../figures/figure5.png, id=252, 1304.2326pt x 1394.5701pt>
+<../figures/figure5.png, id=254, 1304.2326pt x 1394.5701pt>
 File: ../figures/figure5.png Graphic file (type png)
 <use ../figures/figure5.png>
 Package pdftex.def Info: ../figures/figure5.png  used on input line 44.
@@ -610,16 +610,16 @@ Package pdftex.def Info: ../figures/figure5.png  used on input line 44.
 [15 <../figures/figure5.png>]
 
 [16]
-<../figures/figure6.png, id=304, 919.5153pt x 491.1951pt>
+<../figures/figure6.png, id=307, 919.5153pt x 491.1951pt>
 File: ../figures/figure6.png Graphic file (type png)
 <use ../figures/figure6.png>
 Package pdftex.def Info: ../figures/figure6.png  used on input line 39.
 (pdftex.def)             Requested size: 469.75502pt x 250.94089pt.
 
 
-[17 <../figures/figure6.png>]) (./sections/limitations.tex
+[17]) (./sections/limitations.tex
 
-[18]) (./sections/conclusions.tex
+[18 <../figures/figure6.png>]) (./sections/conclusions.tex
 
 [19]) (./manuscript_anonymous.bbl
 
@@ -650,7 +650,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 120--125
 
 
 [21]
-Underfull \hbox (badness 7888) in paragraph at lines 226--230
+Underfull \hbox (badness 7888) in paragraph at lines 233--237
 []\OT1/cmr/m/n/10.95 M. Sher-mer.  Why ET hasn't called.  \OT1/cmr/m/it/10.95 S
 ci. Am.\OT1/cmr/m/n/10.95 , 287(2):33--33, Au-gust 2002.
  []
@@ -668,13 +668,13 @@ Package rerunfilecheck Info: File `manuscript_anonymous.out' has not changed.
 (rerunfilecheck)             Checksum: 95A3A8D6F90C784E52EF110C8260222E;2560.
  ) 
 Here is how much of TeX's memory you used:
- 13898 strings out of 473190
- 225669 string characters out of 5715801
+ 13902 strings out of 473190
+ 225750 string characters out of 5715801
  660062 words of memory out of 5000000
- 36844 multiletter control sequences out of 15000+600000
+ 36847 multiletter control sequences out of 15000+600000
  569566 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,2345b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,2621b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -691,10 +691,10 @@ e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 25/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/202
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on manuscript_anonymous.pdf (23 pages, 3193630 bytes).
+Output written on manuscript_anonymous.pdf (23 pages, 3195134 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 453 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
