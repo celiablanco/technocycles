@@ -7,45 +7,45 @@ Warning--empty journal in Cirkovic2019-oq
 Warning--empty year in Colossal2024-bv
 Warning--there's a number but no volume in Sandlos2019-gm
 Warning--there's a number but no volume in Wright2020-be
-You've used 44 entries,
+You've used 45 entries,
             2773 wiz_defined-function locations,
-            948 strings with 13384 characters,
-and the built_in function-call counts, 19531 in all, are:
-= -- 1804
-> -- 928
-< -- 34
-+ -- 327
-- -- 281
-* -- 1626
-:= -- 3033
-add.period$ -- 168
-call.type$ -- 44
-change.case$ -- 218
-chr.to.int$ -- 42
-cite$ -- 92
-duplicate$ -- 907
-empty$ -- 1693
-format.name$ -- 341
-if$ -- 4066
+            956 strings with 13598 characters,
+and the built_in function-call counts, 19841 in all, are:
+= -- 1830
+> -- 938
+< -- 35
++ -- 331
+- -- 284
+* -- 1644
+:= -- 3085
+add.period$ -- 172
+call.type$ -- 45
+change.case$ -- 221
+chr.to.int$ -- 43
+cite$ -- 94
+duplicate$ -- 927
+empty$ -- 1725
+format.name$ -- 345
+if$ -- 4131
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 47
-newline$ -- 262
-num.names$ -- 178
-pop$ -- 399
+missing$ -- 49
+newline$ -- 268
+num.names$ -- 182
+pop$ -- 409
 preamble$ -- 1
-purify$ -- 178
+purify$ -- 181
 quote$ -- 0
-skip$ -- 620
+skip$ -- 632
 stack$ -- 0
-substring$ -- 844
-swap$ -- 91
+substring$ -- 846
+swap$ -- 92
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 459
+type$ -- 465
 warning$ -- 4
-while$ -- 196
+while$ -- 199
 width$ -- 0
-write$ -- 641
+write$ -- 656
 (There were 4 warnings)
