@@ -27,7 +27,7 @@ All simulations and figures are generated from a single notebook:
 jupyter nbconvert --to notebook --execute --inplace notebooks/figures.ipynb
 ```
 
-This runs 200 Monte Carlo replicates per scenario and writes all figure PNGs to `figures/`.
+This runs 200 Monte Carlo replicates per scenario, writes all figure PNGs to `figures/`, and writes a summary CSV to `notebooks/technosphere_summary.csv`.
 
 ## Build the manuscript
 
