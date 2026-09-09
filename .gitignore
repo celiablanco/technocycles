@@ -1,0 +1,32 @@
+# Revision files
+revision/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+texput.log
+
+# macOS
+.DS_Store
+
+# Reference copy of the source scenario paper (not ours to redistribute)
+bibliography/haqq_misra_projections.pdf
+
+# Journal submission paperwork
+tex/biographies.*
+tex/coverletter.*
+tex/highlights.*
+tex/Highlights.docx
+tex/titlepage.*
+tex/manuscript_anonymous.*
+
+# marked (red) review copies, kept local only
+tex/main_reviewed.pdf
+tex/supplementary_reviewed.pdf
+tex/main_unmarked.pdf
+tex/supplementary_unmarked.pdf
