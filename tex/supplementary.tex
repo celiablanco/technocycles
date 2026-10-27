@@ -5,6 +5,8 @@
 \usepackage{amssymb}
 \usepackage{xcolor}
 \usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
 \usepackage[margin=1in]{geometry}
 \usepackage{placeins}
 \usepackage{algorithm}
@@ -62,32 +64,33 @@ Algorithm~\ref{alg:sim} summarizes the complete simulation sequence for one Mont
 
 Table~\ref{tab:rationale} states, for each scenario, the narrative basis on which each parameter value in Table~4 of the main text was assigned, complementing the governance and resource-pressure logic of Tables~2 and 3 of the main text. The growth rate $r$ is in all cases taken directly from Haqq-Misra et al.\ (2025), Table~9, and is not re-derived here. We reiterate that these are exploratory, internally consistent assignments rather than empirical estimates; the plausible ranges explored around them are given in Table~5 of the main text (local uncertainty) and Table~6 of the main text together with Supplementary Figure~\ref{fig:gsa} (global ranges).
 
-\begin{table*}[htbp]
-\centering
-\caption{Narrative rationale for scenario parameter assignments.}
-\label{tab:rationale}
-\small
-\setlength{\tabcolsep}{5pt}
-\renewcommand{\arraystretch}{1.3}
-{\raggedright
-\begin{tabular}{l p{4.6cm} p{5.2cm} p{3.6cm}}
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{longtable}{l >{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}p{4.2cm} >{\raggedright\arraybackslash}p{6.2cm}}
+\caption{Narrative rationale for scenario parameter assignments.}\label{tab:rationale} \\
 \toprule
 Scenario & Resource regime ($R_0$, $\delta$) & Collapse and recovery ($c_f$, $r_d$, $r_f$) & Aggregate hazard exposure ($h$) \\
 \midrule
-S1 & Scarcity under authoritarian extraction: low stock (400), elevated depletion (1.2). & Concentrated infrastructure retains capacity ($c_f{=}0.6$, upper rule-by-one range); top-down coordination recovers quickly ($r_d{=}40$); weak societal buy-in limits replenishment ($r_f{=}0.15$). & Elevated exposure through unstable geopolitics: $h{=}0.003$. \\
-S2 & Competitive, deregulated extraction: moderate stock (700), high depletion (1.5). & Fragmented coordination deepens collapse ($c_f{=}0.3$) and slows rebuilding ($r_d{=}70$); weak institutional memory ($r_f{=}0.10$). & Moderate exposure: conflict-prone but decentralized ($h{=}0.001$). \\
-S3 & Post-scarcity idealization: abundant stock (2400), no net depletion ($\delta{=}0$). & No-collapse limit: $c_f{=}1$, $r_d{=}0$, $r_f{=}1$. & No exogenous exposure channel: stable society ($h{=}0$). \\
-S4 & Ecologically constrained cyclical society: modest stock (600), highest depletion relative to regeneration (2.5). & Low-complexity infrastructure lost deeply in collapse ($c_f{=}0.2$); slow agrarian rebuilding ($r_d{=}100$, $r_f{=}0.10$). & Minimal exposure surface: low-impact lifestyle ($h{=}0$). \\
-S5 & Post-biological abundance: large stock (2500), minimal depletion (0.1). & Digital redundancy preserves capacity ($c_f{=}0.9$); rapid reconstitution ($r_d{=}20$, $r_f{=}0.80$). & Residual exposure through systemic complexity ($h{=}0.0005$). \\
-S6 & Large stock (1600) under sustained high-tech extraction (1.0): scarcity through pressure, not endowment. & Cascading interdependent failures ($c_f{=}0.4$, $r_d{=}50$, $r_f{=}0.25$). & Largest engineered exposure surface: tightly coupled high-risk systems ($h{=}0.005$). \\
-S7 & Post-collapse rebuilding: reduced effective stock (400), moderate-high depletion (1.5), overriding the nominal non-scarcity tag (see Section~3.2 of the main text). & Distributed institutions rebuilding from prior damage ($c_f{=}0.3$, $r_d{=}60$, $r_f{=}0.20$). & Residual exposure during rebuilding: $h{=}0.001$. \\
-S8 & Oscillatory regime: moderate stock (800) and depletion (1.3) tuned so cycles emerge endogenously. & Partial technological survival ($c_f{=}0.6$) with substantial resource regeneration ($r_f{=}0.35$, $r_d{=}70$), sustaining repeated cycles. & No exogenous exposure channel: collapse endogenous by construction ($h{=}0$). \\
-S9 & Aggressive expansion drives extraction despite nominal post-scarcity: stock 900, depletion 1.3. & Expansionist rebuild capacity ($c_f{=}0.5$, $r_d{=}70$, $r_f{=}0.35$). & No exogenous exposure channel: instability internalized in depletion dynamics ($h{=}0$). \\
-S10 & Post-scarcity harmony: abundant stock (2700), no net depletion ($\delta{=}0$). & No-collapse limit: $c_f{=}1$, $r_d{=}0$, $r_f{=}1$. & No exogenous exposure channel: stable society ($h{=}0$). \\
+\endfirsthead
+\toprule
+Scenario & Resource regime ($R_0$, $\delta$) & Collapse and recovery ($c_f$, $r_d$, $r_f$) & Aggregate hazard exposure ($h$) \\
+\midrule
+\endhead
 \bottomrule
-\end{tabular}
+\endlastfoot
+S1 & Scarcity under authoritarian extraction: low stock (400), elevated depletion (1.2). & Concentrated infrastructure retains capacity ($c_f{=}0.6$, upper rule-by-one range); top-down coordination recovers quickly ($r_d{=}40$); weak societal buy-in limits replenishment ($r_f{=}0.15$). & Elevated exposure through a very extensive yet undirected technosphere supporting far-reaching human presence but severely plagued by unitary unstable geopolitics: $h{=}0.003$. \\
+S2 & Competitive, deregulated extraction: moderate stock (700), high depletion (1.5). & Fragmented coordination deepens collapse ($c_f{=}0.3$) and slows rebuilding ($r_d{=}70$); weak institutional memory ($r_f{=}0.10$). & Moderate exposure: the multi-planetary technosphere comprises fragmented and competing ``sub-systems'' which are conflict-prone but decentralized ($h{=}0.001$). \\
+S3 & Post-scarcity idealization: abundant stock (2400), no net depletion ($\delta{=}0$). & No-collapse limit: $c_f{=}1$, $r_d{=}0$, $r_f{=}1$. & No exogenous exposure channel, thanks to the principled deployment of ``hardening'' technologies to guarantee humanity's survival by insulating it against hazards: proactively shielded, stable society ($h{=}0$). \\
+S4 & Ecologically constrained cyclical society: modest stock (600), highest depletion relative to regeneration (2.5). & Low-complexity infrastructure lost deeply in collapse ($c_f{=}0.2$); slow agrarian rebuilding ($r_d{=}100$, $r_f{=}0.10$). & Minimal exposure surface, thanks to a severely contracted and simplified technosphere that comprises just the absolute necessities: low-impact lifestyle ensures humanity's survival even ``through fire and water'' by staying constantly attuned to the ever-changing ecological realities ($h{=}0$). \\
+S5 & Post-biological abundance: large stock (2500), minimal depletion (0.1). & Digital redundancy preserves capacity ($c_f{=}0.9$); rapid reconstitution ($r_d{=}20$, $r_f{=}0.80$). & Residual exposure through systemic complexity of the vast and directed technosphere supporting significant modifications of planets, life, and humans themselves, after accounting for the equivalently significant efforts to mitigate the related problems afforded by said expanse ($h{=}0.0005$). \\
+S6 & Large stock (1600) under sustained high-tech extraction (1.0): scarcity through pressure, not endowment. & Cascading interdependent failures ($c_f{=}0.4$, $r_d{=}50$, $r_f{=}0.25$). & Largest engineered exposure surface due to a vast directed technosphere which is also the imprudently abused and ``squeezed'' crucial foundation for the survival of all life, including humanity: on top of that, the related technologies are also tightly coupled with high-risk competing geopolitical systems ($h{=}0.005$). \\
+S7 & Post-collapse rebuilding: reduced effective stock (400), moderate-high depletion (1.5), overriding the nominal non-scarcity tag (see Section~3.2 of the main text). & Distributed institutions rebuilding from prior damage ($c_f{=}0.3$, $r_d{=}60$, $r_f{=}0.20$). & Residual exposure during rebuilding the previously backtracked civilization via a bold but unprecedented fusion of varying technological systems with ecosystems, whose broader, cascading consequences cannot be preemptively accounted for with precision: $h{=}0.001$. \\
+S8 & Oscillatory regime: moderate stock (800) and depletion (1.3) tuned so cycles emerge endogenously. & Partial technological survival ($c_f{=}0.6$) with substantial resource regeneration ($r_f{=}0.35$, $r_d{=}70$), sustaining repeated cycles. & No exogenous exposure channel, thanks to the ``zero trust'' strategy of civilizational development employed by the ultra-elites, who have taken every measure to ensure that humanity's survival cannot be decisively threatened by catastrophes: this is because collapse is always expected by them as the norm of development rather than the exception, as it is also endogenous by construction ($h{=}0$). \\
+S9 & Aggressive expansion drives extraction despite nominal post-scarcity: stock 900, depletion 1.3. & Expansionist rebuild capacity ($c_f{=}0.5$, $r_d{=}70$, $r_f{=}0.35$). & No exogenous exposure channel, thanks to the superbly technologically capable Advanced AIs (posthumans) that see the Earth--Moon system, which hosts all biological human societies, as a ``biological heritage preserve'' to be actively safeguarded decisively against catastrophes: nevertheless, instability due to the free will of biological humans is still allowed in this preserve, but is internalized in depletion dynamics ($h{=}0$). \\
+S10 & Post-scarcity harmony: abundant stock (2700), no net depletion ($\delta{=}0$). & No-collapse limit: $c_f{=}1$, $r_d{=}0$, $r_f{=}1$. & No exogenous exposure channel, thanks to the vast and polycentric reach of human civilization across the solar system and the proactive external ``warding'' of the Earth with the use of advanced technologies as a ``planetary garden'', where humans and other life can experience a tech-free life: each of the numerous human settlements is a stable society that contributes to civilizational defense by exercising constant vigilance and prudence over its sector of operations ($h{=}0$). \\
+\end{longtable}
 }
-\end{table*}
 
 \section{Summary statistics of the outcome metrics}\label{app:summary}
 
@@ -121,7 +124,12 @@ Because collapse events occur at different times in different runs, ensemble ave
 
 \section{Simulation-horizon dependence and asymptotic duty cycle}\label{app:horizon}
 
-To test whether the reported duty cycles are artifacts of the 1000-year simulation window, we re-ran all scenarios with horizons of 3,000 and 10,000 years (300 replicates each; Supplementary Figure~\ref{fig:horizon}). For the collapse-prone scenarios, the duty cycle decreases with horizon length and converges toward a stationary value, because the finite 1000-year window includes the favorable initial transient during which the full initial stock $R_0$ is being depleted, whereas the long-run dynamics are governed by the recurring cycle of partial recovery and re-depletion. The stationary value follows in closed form. In the cyclic regime, each cycle consists of an active phase, which lasts until the recovered stock $r_f R_0$ is depleted at rate $\delta$ or a hazard strikes, followed by a dormant phase of duration $r_d$. The depletion time is $\tau = r_f R_0 / \delta$, and with aggregate hazard exposure $h$ the expected active-phase duration is $t_{\mathrm{act}} = (1 - e^{-h\tau})/h$ (reducing to $\tau$ as $h \to 0$), giving
+To test whether the reported duty cycles are artifacts of the 1000-year simulation window, we re-ran all scenarios with horizons of 3,000 and 10,000 years (300 replicates each; Supplementary Figure~\ref{fig:horizon}). For the collapse-prone scenarios, the duty cycle decreases with horizon length and converges toward a stationary value, because the finite 1000-year window includes the favorable initial transient during which the full initial stock $R_0$ is being depleted, whereas the long-run dynamics are governed by the recurring cycle of partial recovery and re-depletion. The stationary value follows in closed form. In the cyclic regime, each cycle consists of an active phase, which lasts until the recovered stock $r_f R_0$ is depleted at rate $\delta$ or a hazard strikes, followed by a dormant phase of duration $r_d$. The depletion time is $\tau = r_f R_0 / \delta$ (in yearly steps). Because the simulation draws the hazard as an independent Bernoulli trial with probability $h$ at each yearly step, the number of years an active phase survives before a hazard strikes is geometrically distributed, and the expected active-phase duration, truncated at depletion, is
+\begin{equation}
+t_{\mathrm{act}} = \sum_{k=0}^{\tau-1} (1-h)^{k} = \frac{1 - (1-h)^{\tau}}{h} ,
+\label{eq:tact}
+\end{equation}
+which reduces to $\tau$ as $h \to 0$. Its continuous-time counterpart, $(1 - e^{-h\tau})/h$, follows from $(1-h)^{\tau} = e^{\tau \ln(1-h)} \approx e^{-h\tau}$ and is therefore a first-order approximation valid for small $h$; for the hazard levels considered here ($h \leq 0.005$) the two expressions yield asymptotic duty cycles that differ by less than $4\times10^{-4}$. Using the exact discrete form,
 \begin{equation}
 D_c^{\infty} = \frac{t_{\mathrm{act}}}{t_{\mathrm{act}} + r_d} .
 \label{eq:dcinf}
@@ -137,7 +145,7 @@ Table~\ref{tab:asymptotic} compares the simulated duty cycles at 1,000 and 10,00
 Scenario & $\bar{D}_c$ (1 kyr) & $\bar{D}_c$ (10 kyr) & $D_c^{\infty}$ (analytic) \\
 \midrule
 S1 & 0.631 & 0.555 & 0.537 \\
-S2 & 0.620 & 0.420 & 0.394 \\
+S2 & 0.620 & 0.420 & 0.395 \\
 S4 & 0.382 & 0.215 & 0.194 \\
 S6 & 0.795 & 0.776 & 0.776 \\
 S7 & 0.578 & 0.479 & 0.464 \\
