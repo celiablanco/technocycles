@@ -30,3 +30,6 @@ tex/main_reviewed.pdf
 tex/supplementary_reviewed.pdf
 tex/main_unmarked.pdf
 tex/supplementary_unmarked.pdf
+
+# Journal proofs (publisher typeset PDF, kept local only)
+proofs/
